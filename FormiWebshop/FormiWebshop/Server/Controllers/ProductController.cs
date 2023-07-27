@@ -33,5 +33,11 @@ namespace FormiWebshop.Server.Controllers
             Price = 6.99m
             }
         };
+
+        [HttpGet]
+        public async Task<IActionResult> GetProduct()
+        {
+            return Ok(Products);
+        }
     }
 }
