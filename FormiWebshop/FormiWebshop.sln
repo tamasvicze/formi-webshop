@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormiWebshop.Server", "FormiWebshop\Server\FormiWebshop.Server.csproj", "{276E4A2C-E77D-4E17-AD0A-9E6C9EE4469E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormiWebshop.Server", "FormiWebshop\Server\FormiWebshop.Server.csproj", "{276E4A2C-E77D-4E17-AD0A-9E6C9EE4469E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormiWebshop.Client", "FormiWebshop\Client\FormiWebshop.Client.csproj", "{ABCD67BC-8E58-4D65-B23C-E06185B04735}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormiWebshop.Client", "FormiWebshop\Client\FormiWebshop.Client.csproj", "{ABCD67BC-8E58-4D65-B23C-E06185B04735}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormiWebshop.Shared", "FormiWebshop\Shared\FormiWebshop.Shared.csproj", "{6CD27974-7262-4059-8EB6-1F8BF136E269}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormiWebshop.Shared", "FormiWebshop\Shared\FormiWebshop.Shared.csproj", "{6CD27974-7262-4059-8EB6-1F8BF136E269}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

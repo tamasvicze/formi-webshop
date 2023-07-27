@@ -1,3 +1,4 @@
+global using FormiWebshop.Shared;
 using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);

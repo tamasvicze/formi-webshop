@@ -1,4 +1,3 @@
-using FormiWebshop.Shared;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FormiWebshop.Server.Controllers
