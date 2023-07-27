@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\FormiWebshop",
+    "\\FormiWebshop\\FormiWebshop",
+    "\\FormiWebshop\\FormiWebshop\\Client",
+    "\\FormiWebshop\\FormiWebshop\\Client\\Pages",
+    "\\FormiWebshop\\FormiWebshop\\Server",
+    "\\FormiWebshop\\FormiWebshop\\Server\\Controllers",
+    "\\FormiWebshop\\FormiWebshop\\Shared"
   ],
-  "SelectedNode": "\\D:\\Else\\Hobby\\EcommerceBlazorDotnet6",
+  "SelectedNode": "\\FormiWebshop\\FormiWebshop\\Shared\\FormiWebshop.Shared.csproj",
   "PreviewInSolutionExplorer": false
 }
