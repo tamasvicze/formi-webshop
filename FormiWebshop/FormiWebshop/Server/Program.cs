@@ -1,4 +1,5 @@
 global using FormiWebshop.Server.Data;
+global using FormiWebshop.Server.Services.ProductService;
 global using FormiWebshop.Shared;
 global using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +16,8 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
 
