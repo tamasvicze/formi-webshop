@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FormiWebshop.Server.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230728140848_CreateInitial")]
+    [Migration("20230730111902_CreateInitial")]
     partial class CreateInitial
     {
         /// <inheritdoc />

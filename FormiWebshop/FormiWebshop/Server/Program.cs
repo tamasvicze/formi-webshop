@@ -1,6 +1,6 @@
+global using FormiWebshop.Server.Data;
 global using FormiWebshop.Shared;
 global using Microsoft.EntityFrameworkCore;
-using FormiWebshop.Server.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
