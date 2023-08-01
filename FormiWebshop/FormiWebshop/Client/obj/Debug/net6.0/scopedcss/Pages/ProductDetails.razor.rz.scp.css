@@ -12,6 +12,10 @@
 }
 
 @media (max-width: 1023.98px) {
+    .media[b-nphht0mrfn] {
+        flex-direction: column;
+    }
+
     .media-img[b-nphht0mrfn] {
         max-width: 300px;
     }
