@@ -1,14 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\FormiWebshop",
-    "\\FormiWebshop\\FormiWebshop",
-    "\\FormiWebshop\\FormiWebshop\\Client",
-    "\\FormiWebshop\\FormiWebshop\\Client\\Pages",
-    "\\FormiWebshop\\FormiWebshop\\Server",
-    "\\FormiWebshop\\FormiWebshop\\Server\\Controllers",
-    "\\FormiWebshop\\FormiWebshop\\Shared"
+    ""
   ],
-  "SelectedNode": "\\FormiWebshop\\FormiWebshop\\Shared\\FormiWebshop.Shared.csproj",
+  "SelectedNode": "\\FormiWebshop.sln",
   "PreviewInSolutionExplorer": false
 }
