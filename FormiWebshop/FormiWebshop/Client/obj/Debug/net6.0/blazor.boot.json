@@ -196,15 +196,15 @@
       "mscorlib.dll": "sha256-y7DhCb2PceYWjnHWsZokJrty551Q9XISH3Z72o6RdwI=",
       "netstandard.dll": "sha256-REs1\/xYvAzuX2k2Y5p\/5IaM3O\/zaiYSW62pOQBGMrrA=",
       "System.Private.CoreLib.dll": "sha256-Bz7VnNtt03SzAvIN30yx1e25P6SfMdLYIaKIy7ASEnw=",
-      "FormiWebshop.Shared.dll": "sha256-CXSQvICOLyZ2yfRhDO3ajNTzg8KT8zX8S+9kLAKyrN8=",
-      "FormiWebshop.Client.dll": "sha256-X4n5d2JiDhIwB1LbOHlMDZ7\/abVeQv\/PkeqH3cZJoAg="
+      "FormiWebshop.Shared.dll": "sha256-OFdQAMaGDSu2p\/gq+sxx0ktz4cuvzW+nSzSCMPFhAAk=",
+      "FormiWebshop.Client.dll": "sha256-sa78mJpPkeFemXFCZkOGdOkDCdNRIja6vYB1Rrkrlu8="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "FormiWebshop.Shared.pdb": "sha256-YB1L\/y6QwCmQu\/mpo1HoUo0jHrB5O4iGF7Kk1kaC9HI=",
-      "FormiWebshop.Client.pdb": "sha256-PBN8oakxuX2eH\/IuqTeJGU2717jkJ14jwGQDUEF1i60="
+      "FormiWebshop.Shared.pdb": "sha256-nysqqKRlzhvNUInonPhwzE6yafV2p5Y+rAAOj0fyxJw=",
+      "FormiWebshop.Client.pdb": "sha256-u6GYEqwyMqkyDYbNNM8bM8P1swHgwaE60+oEda0uwuU="
     },
     "runtime": {
       "dotnet.6.0.15.wo7iktgz71.js": "sha256-fb2wBZaRp096nChMG9nDNEcW0kW1whA\/kfQNyH+5QpQ=",
