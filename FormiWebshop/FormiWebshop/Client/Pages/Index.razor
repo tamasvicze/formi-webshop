@@ -3,9 +3,16 @@
 @page "/{categoryUrl}"
 @inject IProductService ProductService
 
-<PageTitle>My Shop</PageTitle>
+<PageTitle>Formi Webshop</PageTitle>
 
-<ProductList></ProductList>
+@if (SearchText == null && CategoryUrl == null)
+{
+    <FeaturedProducts></FeaturedProducts>
+}
+else
+{
+    <ProductList></ProductList>
+}
 
 @code
 {
