@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+zVOjWiYZ/X5Nmnykim6D6/fBCGI6dek2r+ikkt852zka/BxuneG/GDIHm+LU/cCqkbnUrvSY4rx8R8e3LPeXg==",
+  "dgSpecHash": "/fqOLzdWITnF+NcqIPPkqtKi1uutUjR+te3F5XR+qZ+VMYZsAUGHUiry9ccbThZqZMjSWlnF6Hoc9V+iBvLd1g==",
   "success": true,
   "projectFilePath": "D:\\Else\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\FormiWebshop.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tamas.vicze\\.nuget\\packages\\blazored.localstorage\\4.3.0\\blazored.localstorage.4.3.0.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.14\\microsoft.aspnetcore.authorization.6.0.14.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.14\\microsoft.aspnetcore.components.6.0.14.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.14\\microsoft.aspnetcore.components.analyzers.6.0.14.nupkg.sha512",

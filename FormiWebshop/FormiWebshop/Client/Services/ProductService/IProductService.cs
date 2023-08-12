@@ -12,7 +12,7 @@ namespace FormiWebshop.Client.Services.ProductService
         string LastSearchText { get; set; }
         Task GetProducts(string? categoryUrl = null);
         Task<ServiceResponse<Product>> GetProduct(int productId);
-        Task SearchProduct(string searchText);
+        Task SearchProduct(string searchText, int page);
         Task<List<string>> GetProductSearchSuggestions(string searchText);
     }
 }

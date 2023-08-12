@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "s0QkiC9HR4Hr3NysCvWOtcWSWLCG+6gUocU3WKUlDcTq34rq2EvsZhsQbxuYZlrY3nwe5krgAo8HHSWU20QJvg==",
+  "dgSpecHash": "3BO4bYYs8ltkteEAOw4dqukqUvlB/zr5ZCqQXMBahATBjhPO7hxH4F6qoRbvGUmXFgmZbLCPF2VUVpLokJzfGA==",
   "success": true,
   "projectFilePath": "D:\\Else\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Server\\FormiWebshop.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\tamas.vicze\\.nuget\\packages\\blazored.localstorage\\4.3.0\\blazored.localstorage.4.3.0.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.14\\microsoft.aspnetcore.authorization.6.0.14.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.14\\microsoft.aspnetcore.components.6.0.14.nupkg.sha512",
