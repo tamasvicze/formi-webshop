@@ -21,13 +21,14 @@ else
                     <h5><a href="/product/@product.ProductId">@product.Title</a></h5>
                     <span>@product.ProductType</span><br />
                     <input type="number" value="@product.Quantity"
-                   @onchange="@((ChangeEventArgs e) => UpdateQuantity(e, product))"
+                           @onchange="@((ChangeEventArgs e) => UpdateQuantity(e, product))"
                            class="form-control input-quantity"
                            min="1" />
                     <button class="btn-delete" @onclick="@(() => RemoveProductFromCart(product.ProductId, product.ProductTypeId))">
                         Delete
                     </button>
                 </div>
+               @* TODO Align total cart price under item prices*@
                 <div class="cart-product-price">$@(product.Price * product.Quantity)</div>
             </div>
         }

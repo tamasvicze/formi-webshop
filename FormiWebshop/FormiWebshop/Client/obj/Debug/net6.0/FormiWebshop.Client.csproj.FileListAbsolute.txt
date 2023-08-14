@@ -837,3 +837,16 @@ D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\
 D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\Blazored.LocalStorage.dll
 D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\IIUcRhOs.gz
 D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\scopedcss\Pages\Cart.razor.rz.scp.css
+D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\scopedcss\Shared\UserButton.razor.rz.scp.css
+D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\+ZLQNdQv.gz
+D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.WebUtilities.dll
+D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Net.Http.Headers.dll
+D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.WebUtilities.dll.gz
+D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Net.Http.Headers.dll.gz
+D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\jtKvUn+q.gz
+D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\UES4HDw4.gz

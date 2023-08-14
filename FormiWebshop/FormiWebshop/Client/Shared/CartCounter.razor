@@ -10,6 +10,8 @@
 
     private int GetCartItemsCount()
     {
+        
+        //TODO Add quantity of items when counting cart items
         var cart = LocalStorage.GetItem<List<CartItem>>("cart");
         return cart != null ? cart.Count : 0;
     }

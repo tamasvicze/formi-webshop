@@ -422,3 +422,19 @@ main[b-styuethvbl] {
         display: block;
     }
 }
+/* /Shared/UserButton.razor.rz.scp.css */
+.show-menu[b-032xbap37g] {
+    display: block;
+}
+
+.user-button[b-032xbap37g] {
+    margin-left: .5em;
+}
+
+.top-row a[b-032xbap37g] {
+    margin-left: 0;
+}
+
+.dropdown-item:hover[b-032xbap37g] {
+    background-color: white;
+}

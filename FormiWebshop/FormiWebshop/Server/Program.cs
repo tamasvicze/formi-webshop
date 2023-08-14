@@ -4,10 +4,8 @@ global using FormiWebshop.Server.Services.CategoryService;
 global using FormiWebshop.Shared;
 global using Microsoft.EntityFrameworkCore;
 global using FormiWebshop.Server.Services.CartService;
-using FormiWebshop.Client.Services.CartService;
-using FormiWebshop.Server.Services.CategoryService;
-using CartService = FormiWebshop.Server.Services.CartService.CartService;
-using ICartService = FormiWebshop.Server.Services.CartService.ICartService;
+global using FormiWebshop.Server.Services.AuthService;
+global using FormiWebshop.Server.Services.CategoryService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +24,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 var app = builder.Build();
 
