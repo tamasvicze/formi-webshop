@@ -11,7 +11,7 @@
           "FormiWebshop.Client": "1.0.0",
           "FormiWebshop.Shared": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.0",
-          "Microsoft.AspNetCore.Components.WebAssembly.Server": "6.0.14",
+          "Microsoft.AspNetCore.Components.WebAssembly.Server": "6.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.9",
           "Microsoft.EntityFrameworkCore.Design": "7.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9",
@@ -158,11 +158,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.Server/6.0.14": {
+      "Microsoft.AspNetCore.Components.WebAssembly.Server/6.0.0": {
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll": {
-            "assemblyVersion": "6.0.14.0",
-            "fileVersion": "6.0.1423.7403"
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52608"
           }
         }
       },
@@ -1047,12 +1047,12 @@
       "path": "microsoft.aspnetcore.components.webassembly/6.0.14",
       "hashPath": "microsoft.aspnetcore.components.webassembly.6.0.14.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components.WebAssembly.Server/6.0.14": {
+    "Microsoft.AspNetCore.Components.WebAssembly.Server/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TCeU9RJrUt74jqF0eacLbVkBpQw7Y29z7x02SUjEs69HZu52WvaYKKxWAuM6DclHOpLCgkibtUlRPcpss5b0QA==",
-      "path": "microsoft.aspnetcore.components.webassembly.server/6.0.14",
-      "hashPath": "microsoft.aspnetcore.components.webassembly.server.6.0.14.nupkg.sha512"
+      "sha512": "sha512-tEv7Ma9/AWqLm4v/GKkctYxYmxmbMxHQ5oMbXidgSZK6fVC1yG+BMNZJkuGeAShE28A3JU90+YGU5wDyTk0GFw==",
+      "path": "microsoft.aspnetcore.components.webassembly.server/6.0.0",
+      "hashPath": "microsoft.aspnetcore.components.webassembly.server.6.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Metadata/6.0.14": {
       "type": "package",

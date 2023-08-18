@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uG1XoidfAJAl16F/v4/jHJdOvHliOJxnePsOt+H3OxxyaY0b0ChKeOMDhD3vgoW88YJ9FcHN1BR9YIJtEHb3ng==",
+  "dgSpecHash": "0d8yIs3MQEHK4bMm5W+rXHF/4ZTZ4X8wQ9XU8g9iVZt4OMxH2KiB2vdzHm1zpjGxVqbTm80J0RXjgLnsSQ0bfA==",
   "success": true,
   "projectFilePath": "D:\\Else\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Server\\FormiWebshop.Server.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,7 @@
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.14\\microsoft.aspnetcore.components.forms.6.0.14.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.14\\microsoft.aspnetcore.components.web.6.0.14.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.14\\microsoft.aspnetcore.components.webassembly.6.0.14.nupkg.sha512",
-    "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\6.0.14\\microsoft.aspnetcore.components.webassembly.server.6.0.14.nupkg.sha512",
+    "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\6.0.0\\microsoft.aspnetcore.components.webassembly.server.6.0.0.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.14\\microsoft.aspnetcore.metadata.6.0.14.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

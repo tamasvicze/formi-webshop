@@ -47,6 +47,18 @@ namespace FormiWebshop.Client
             return state;
         }
 
+        public async Task<bool> NotExpiredToken(ClaimsIdentity? identity)
+        {
+            if (identity == null) return false;
+            var user = new ClaimsPrincipal(identity);
+            var exp = user.FindFirst("exp");
+            if (exp == null) return false;
+            var expDateTime = DateTimeOffset.FromUnixTimeSeconds(long.Parse(exp.Value));
+            if (DateTime.Now > expDateTime)
+                return false;
+            return true;
+        }
+
         private byte[] ParseBase64WithoutPadding(string base64)
         {
             switch (base64.Length % 4)

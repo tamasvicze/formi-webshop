@@ -207,7 +207,7 @@
           "build/net6.0/_._": {}
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.Server/6.0.14": {
+      "Microsoft.AspNetCore.Components.WebAssembly.Server/6.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll": {
@@ -1846,10 +1846,10 @@
         "microsoft.aspnetcore.components.webassembly.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.WebAssembly.Server/6.0.14": {
-      "sha512": "TCeU9RJrUt74jqF0eacLbVkBpQw7Y29z7x02SUjEs69HZu52WvaYKKxWAuM6DclHOpLCgkibtUlRPcpss5b0QA==",
+    "Microsoft.AspNetCore.Components.WebAssembly.Server/6.0.0": {
+      "sha512": "tEv7Ma9/AWqLm4v/GKkctYxYmxmbMxHQ5oMbXidgSZK6fVC1yG+BMNZJkuGeAShE28A3JU90+YGU5wDyTk0GFw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.webassembly.server/6.0.14",
+      "path": "microsoft.aspnetcore.components.webassembly.server/6.0.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1859,7 +1859,7 @@
         "build/Microsoft.AspNetCore.Components.WebAssembly.Server.targets",
         "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll",
         "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Server.xml",
-        "microsoft.aspnetcore.components.webassembly.server.6.0.14.nupkg.sha512",
+        "microsoft.aspnetcore.components.webassembly.server.6.0.0.nupkg.sha512",
         "microsoft.aspnetcore.components.webassembly.server.nuspec",
         "tools/BlazorDebugProxy/BrowserDebugHost.dll",
         "tools/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json",
@@ -4731,7 +4731,7 @@
       "FormiWebshop.Client >= 1.0.0",
       "FormiWebshop.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.0",
-      "Microsoft.AspNetCore.Components.WebAssembly.Server >= 6.0.14",
+      "Microsoft.AspNetCore.Components.WebAssembly.Server >= 6.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.9",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.9",
@@ -4795,7 +4795,7 @@
           },
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",
-            "version": "[6.0.14, )"
+            "version": "[6.0.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
