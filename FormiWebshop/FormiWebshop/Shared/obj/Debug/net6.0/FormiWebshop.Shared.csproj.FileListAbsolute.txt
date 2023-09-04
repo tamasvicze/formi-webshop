@@ -1,7 +1,6 @@
 D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.deps.json
 D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.dll
 D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.pdb
-D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.csproj.AssemblyReference.cache
 D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.GeneratedMSBuildEditorConfig.editorconfig
 D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.AssemblyInfoInputs.cache
 D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.AssemblyInfo.cs
