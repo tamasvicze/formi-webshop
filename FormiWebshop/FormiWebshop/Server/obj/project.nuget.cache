@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mafC4EaG6iY4F4nUREK22nqfqy9z2DdbgL5E48fafF5KTyxS/YwsmnSVyfsXNt6GQV7m7dKTVTpOujYzoWcYgg==",
+  "dgSpecHash": "ZSxQtsK9SR48gne9n87lQFDEXNovstVxIGr1lUuIYZodwZZFo4i1fedtBP86z/SuGhpLmmjzUHJnHxtnwkPy6w==",
   "success": true,
-  "projectFilePath": "D:\\Else\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Server\\FormiWebshop.Server.csproj",
+  "projectFilePath": "D:\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Server\\FormiWebshop.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

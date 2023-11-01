@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Else\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\FormiWebshop.Shared.csproj": {}
+    "D:\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\FormiWebshop.Shared.csproj": {}
   },
   "projects": {
-    "D:\\Else\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\FormiWebshop.Shared.csproj": {
+    "D:\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\FormiWebshop.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Else\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\FormiWebshop.Shared.csproj",
+        "projectUniqueName": "D:\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\FormiWebshop.Shared.csproj",
         "projectName": "FormiWebshop.Shared",
-        "projectPath": "D:\\Else\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\FormiWebshop.Shared.csproj",
+        "projectPath": "D:\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\FormiWebshop.Shared.csproj",
         "packagesPath": "C:\\Users\\tamas.vicze\\.nuget\\packages\\",
-        "outputPath": "D:\\Else\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\obj\\",
+        "outputPath": "D:\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

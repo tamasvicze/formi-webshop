@@ -9,3 +9,14 @@ D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\
 D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\refint\FormiWebshop.Shared.dll
 D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.pdb
 D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\ref\FormiWebshop.Shared.dll
+C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.deps.json
+C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.dll
+C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.pdb
+C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.AssemblyInfoInputs.cache
+C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.AssemblyInfo.cs
+C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.csproj.CoreCompileInputs.cache
+C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.dll
+C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\refint\FormiWebshop.Shared.dll
+C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.pdb
+C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\ref\FormiWebshop.Shared.dll

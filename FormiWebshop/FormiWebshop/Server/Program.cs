@@ -6,6 +6,7 @@ global using Microsoft.EntityFrameworkCore;
 global using FormiWebshop.Server.Services.CartService;
 global using FormiWebshop.Server.Services.AuthService;
 global using FormiWebshop.Server.Services.CategoryService;
+global using FormiWebshop.Server.Services.OrderService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 
@@ -27,6 +28,7 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
