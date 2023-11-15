@@ -3,8 +3,9 @@
     "",
     "\\FormiWebshop",
     "\\FormiWebshop\\Client",
-    "\\FormiWebshop\\Client\\Pages"
+    "\\FormiWebshop\\Client\\Services",
+    "\\FormiWebshop\\Client\\Services\\CartService"
   ],
-  "SelectedNode": "\\FormiWebshop\\Client",
+  "SelectedNode": "\\FormiWebshop\\Client\\Services\\CartService\\CartService.cs",
   "PreviewInSolutionExplorer": false
 }
