@@ -224,6 +224,7 @@ C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiW
 C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.pdb
 C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.genruntimeconfig.cache
 C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\ref\FormiWebshop.Server.dll
+<<<<<<< HEAD
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\appsettings.Development.json
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\appsettings.json
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.dll
@@ -337,3 +338,5 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.pdb
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.genruntimeconfig.cache
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\ref\FormiWebshop.Server.dll
+=======
+>>>>>>> 9fa09081c9a75d2ce941075794de02605a9f7446
