@@ -281,11 +281,7 @@
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Alternative</AssetRole>
-<<<<<<< HEAD
       <RelatedAsset>D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
-=======
-      <RelatedAsset>C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
->>>>>>> 9fa09081c9a75d2ce941075794de02605a9f7446
       <AssetTraitName>Content-Encoding</AssetTraitName>
       <AssetTraitValue>gzip</AssetTraitValue>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

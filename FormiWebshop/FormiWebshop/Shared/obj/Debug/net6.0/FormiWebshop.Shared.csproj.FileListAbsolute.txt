@@ -1,26 +1,3 @@
-D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.deps.json
-D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.dll
-D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.pdb
-D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.GeneratedMSBuildEditorConfig.editorconfig
-D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.AssemblyInfoInputs.cache
-D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.AssemblyInfo.cs
-D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.csproj.CoreCompileInputs.cache
-D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.dll
-D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\refint\FormiWebshop.Shared.dll
-D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.pdb
-D:\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\ref\FormiWebshop.Shared.dll
-C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.deps.json
-C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.dll
-C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.pdb
-C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.AssemblyInfoInputs.cache
-C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.AssemblyInfo.cs
-C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.csproj.CoreCompileInputs.cache
-C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.dll
-C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\refint\FormiWebshop.Shared.dll
-C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.pdb
-C:\Users\tamas.vicze\OneDrive - Convene\Else\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\ref\FormiWebshop.Shared.dll
-<<<<<<< HEAD
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.deps.json
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\bin\Debug\net6.0\FormiWebshop.Shared.pdb
@@ -32,5 +9,3 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\refint\FormiWebshop.Shared.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\FormiWebshop.Shared.pdb
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Shared\obj\Debug\net6.0\ref\FormiWebshop.Shared.dll
-=======
->>>>>>> 9fa09081c9a75d2ce941075794de02605a9f7446
