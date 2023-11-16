@@ -64,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-qkifjhszw6
 
+[D:/Repos/Hobby/EcommerceBlazorDotnet6/FormiWebshop/FormiWebshop/Client/Pages/OrderDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJEZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-rbivpfhr13
+
 [D:/Repos/Hobby/EcommerceBlazorDotnet6/FormiWebshop/FormiWebshop/Client/Pages/Orders.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-bz9mfmivac
