@@ -27,6 +27,12 @@ namespace FormiWebshop.Client.Services.OrderService
             }
         }
 
+        public async Task<List<OrderOverviewResponse>> GetOrders()
+        {
+            var result = await _http.GetFromJsonAsync<ServiceResponse<List<OrderOverviewResponse>>>("api/order");
+            return result.Data;
+        }
+
         private async Task<bool> IsUserAtuhenticated()
         {
             return (await _authStateProvider.GetAuthenticationStateAsync()).User.Identity.IsAuthenticated;
