@@ -28,5 +28,12 @@ namespace FormiWebshop.Server.Controllers
             var result = await _orderService.GetOrders();
             return Ok(result);
         }
+
+        [HttpGet("{orderId}")]
+        public async Task<ActionResult<ServiceResponse<OrderOverviewResponse>>> GetOrderDetails(int orderId)
+        {
+            var result = await _orderService.GetOrdersDetails(orderId);
+            return Ok(result);
+        }
     }
 }

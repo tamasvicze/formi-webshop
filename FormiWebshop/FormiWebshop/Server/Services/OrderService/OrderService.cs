@@ -1,6 +1,4 @@
-﻿using System.Security.Claims;
-
-namespace FormiWebshop.Server.Services.OrderService
+﻿namespace FormiWebshop.Server.Services.OrderService
 {
     public class OrderService : IOrderService
     {
@@ -8,7 +6,7 @@ namespace FormiWebshop.Server.Services.OrderService
         private readonly ICartService _cartService;
         private readonly IAuthService _authService;
 
-        public OrderService(DataContext context, ICartService cartService, IAuthService authService )
+        public OrderService(DataContext context, ICartService cartService, IAuthService authService)
         {
             _context = context;
             _cartService = cartService;
@@ -66,7 +64,7 @@ namespace FormiWebshop.Server.Services.OrderService
                 TotalPrice = o.TotalPrice,
                 Product = o.OrderItems.Count > 1 ?
                     $"{o.OrderItems.First().Product.Title} and " +
-                    $"{o.OrderItems.Count -1} more..." :
+                    $"{o.OrderItems.Count - 1} more..." :
                     o.OrderItems.First().Product.Title,
                 ProductImageUrl = o.OrderItems.First().Product.ImageUrl
             }));
@@ -75,6 +73,47 @@ namespace FormiWebshop.Server.Services.OrderService
 
             return response;
         }
+
+        public async Task<ServiceResponse<OrderDetailsResponse>> GetOrdersDetails(int orderId)
+        {
+            var response = new ServiceResponse<OrderDetailsResponse>();
+            var order = await _context.Orders
+                .Include(o => o.OrderItems)
+                .ThenInclude(oi => oi.Product)
+                .Include(o => o.OrderItems)
+                .ThenInclude(oi => oi.ProductType)
+                .Where(o => o.UserId == _authService.GetUserId() && o.Id == orderId)
+                .OrderByDescending(o => o.OrderDate)
+                .FirstOrDefaultAsync();
+
+            if (order == null)
+            {
+                response.Success = false;
+                response.Message = "Order ot found.";
+                return response;
+            }
+
+            var orderDetailsResponse = new OrderDetailsResponse
+            {
+                OrderDate = order.OrderDate,
+                TotalPrice = order.TotalPrice,
+                Products = new List<OrderDetailsProductResponse>()
+            };
+
+            order.OrderItems.ForEach(item => 
+                orderDetailsResponse.Products.Add(new OrderDetailsProductResponse
+                {
+                    ProductId = item.ProductId,
+                    ImageUrl = item.Product.ImageUrl,
+                    ProductType = item.ProductType.Name,
+                    Quantity = item.Quantity,
+                    Title = item.Product.Title,
+                    TotalPrice = item.TotalPrice
+                }));
+
+            response.Data = orderDetailsResponse;
+
+            return response;
+        }
     }
 }
- 
