@@ -4,8 +4,8 @@
   "success": true,
   "projectFilePath": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\FormiWebshop.Shared.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
     "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
   ],
   "logs": []

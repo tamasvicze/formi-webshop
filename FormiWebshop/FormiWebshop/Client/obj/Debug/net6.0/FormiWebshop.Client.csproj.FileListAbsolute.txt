@@ -8,10 +8,10 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\FormiWebshop.Client.pdb
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\FormiWebshop.Shared.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\FormiWebshop.Shared.pdb
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\icudt.dat
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\icudt_CJK.dat
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\icudt_EFIGS.dat
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\icudt_no_CJK.dat
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\icudt.dat
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll

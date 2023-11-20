@@ -22,6 +22,53 @@ namespace FormiWebshop.Server.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("FormiWebshop.Shared.Address", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Country")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("State")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Street")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Zip")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Addresses");
+                });
+
             modelBuilder.Entity("FormiWebshop.Shared.CartItem", b =>
                 {
                     b.Property<int>("UserId")
@@ -80,6 +127,54 @@ namespace FormiWebshop.Server.Migrations
                             Name = "Video Games",
                             Url = "video-games"
                         });
+                });
+
+            modelBuilder.Entity("FormiWebshop.Shared.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("FormiWebshop.Shared.OrderItem", b =>
+                {
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("OrderId", "ProductId", "ProductTypeId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("ProductTypeId");
+
+                    b.ToTable("OrderItems");
                 });
 
             modelBuilder.Entity("FormiWebshop.Shared.Product", b =>
@@ -455,6 +550,42 @@ namespace FormiWebshop.Server.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("FormiWebshop.Shared.Address", b =>
+                {
+                    b.HasOne("FormiWebshop.Shared.User", null)
+                        .WithOne("Address")
+                        .HasForeignKey("FormiWebshop.Shared.Address", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("FormiWebshop.Shared.OrderItem", b =>
+                {
+                    b.HasOne("FormiWebshop.Shared.Order", "Order")
+                        .WithMany("OrderItems")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FormiWebshop.Shared.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FormiWebshop.Shared.ProductType", "ProductType")
+                        .WithMany()
+                        .HasForeignKey("ProductTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Product");
+
+                    b.Navigation("ProductType");
+                });
+
             modelBuilder.Entity("FormiWebshop.Shared.Product", b =>
                 {
                     b.HasOne("FormiWebshop.Shared.Category", "Category")
@@ -485,9 +616,20 @@ namespace FormiWebshop.Server.Migrations
                     b.Navigation("ProductType");
                 });
 
+            modelBuilder.Entity("FormiWebshop.Shared.Order", b =>
+                {
+                    b.Navigation("OrderItems");
+                });
+
             modelBuilder.Entity("FormiWebshop.Shared.Product", b =>
                 {
                     b.Navigation("Variants");
+                });
+
+            modelBuilder.Entity("FormiWebshop.Shared.User", b =>
+                {
+                    b.Navigation("Address")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
