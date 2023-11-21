@@ -47,6 +47,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddLocalization(options => options.ResourcesPath = "GlobalStrings");
 
 var app = builder.Build();
 
@@ -78,5 +79,6 @@ app.UseAuthorization();
 app.MapRazorPages();
 app.MapControllers();
 app.MapFallbackToFile("index.html");
+app.UseRequestLocalization();
 
 app.Run();
