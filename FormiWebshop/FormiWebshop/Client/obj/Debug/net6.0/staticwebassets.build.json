@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VwDKPjlknvOxmszboXkiWH0g8PlYRehwMOF6PrIpE3Q=",
+  "Hash": "e/9Yvx1FX5LfBPQke8YIYws7ucw1e/skZGnHiHMCRDE=",
   "Source": "FormiWebshop.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -187,6 +187,23 @@
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\bin\\Debug\\net6.0\\FormiWebshop.Shared.pdb"
     },
     {
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "FormiWebshop.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.25\\runtimes\\browser-wasm\\native\\icudt.dat"
+    },
+    {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "FormiWebshop.Client",
       "SourceType": "Computed",
@@ -236,23 +253,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.25\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "FormiWebshop.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.25\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -7089,23 +7089,6 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "FormiWebshop.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "FormiWebshop.Client",
       "SourceType": "Discovered",
@@ -7206,6 +7189,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "FormiWebshop.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

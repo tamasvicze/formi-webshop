@@ -19,17 +19,20 @@
             {
                 address.UserId = _authService.GetUserId();
                 _context.Addresses.Add(address);
+
                 response.Data = address;
             }
             else
             {
                 dbAddress.FirstName = address.FirstName;
                 dbAddress.LastName = address.LastName;
+                dbAddress.City = address.City;
+                dbAddress.Street = address.Street;
+                dbAddress.Zip = address.Zip;
                 dbAddress.State = address.State;
                 dbAddress.Country = address.Country;
-                dbAddress.City = address.City;
-                dbAddress.Zip = address.Zip;
-                dbAddress.Street = address.Street;
+
+                response.Data = dbAddress;
             }
 
             await _context.SaveChangesAsync();
