@@ -7,8 +7,8 @@ global using Microsoft.AspNetCore.Components.Authorization;
 global using FormiWebshop.Client.Services.OrderService;
 global using FormiWebshop.Client.Services.CartService;
 global using FormiWebshop.Client.Services.AddressService;
-global using FormiWebshop.Client.Localization;
 global using Microsoft.Extensions.Localization;
+global using Microsoft.AspNetCore.Authorization;
 using Blazored.LocalStorage;
 using FormiWebshop.Client;
 using Microsoft.AspNetCore.Builder;
@@ -31,16 +31,6 @@ builder.Services.AddScoped<IAddressService, AddressService>();
 builder.Services.AddOptions();
 builder.Services.AddAuthorizationCore();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthStateProvider>();
-builder.Services.AddScoped<MyLanguageNotifier>();
-builder.Services.AddScoped(typeof(IStringLocalizer<>), typeof(MyStringLocalizer<>));
-builder.Services.Configure<RequestLocalizationOptions>(options =>
-{
-    options.AddSupportedCultures(new[] { "en", "hu" });
-    options.AddSupportedUICultures(new[] { "en", "hu" });
-    options.RequestCultureProviders = new List<IRequestCultureProvider>()
-    {
-        new MyRequestCultureProvider("hu")
-    };
-});
+builder.Services.AddLocalization();
 
 await builder.Build().RunAsync();

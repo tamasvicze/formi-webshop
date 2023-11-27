@@ -1,0 +1,9 @@
+﻿@page "/admin/categories"
+@attribute [Authorize(Roles = "Admin")]
+@inject IStringLocalizer<GlobalStrings> Localizer
+
+<h3>@Localizer["Categories"]</h3>
+
+@code {
+
+}

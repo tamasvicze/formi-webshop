@@ -8,7 +8,6 @@ global using FormiWebshop.Server.Services.AuthService;
 global using FormiWebshop.Server.Services.OrderService;
 global using FormiWebshop.Server.Services.PaymentService;
 global using FormiWebshop.Server.Services.AddressService;
-global using FormiWebshop.Client.Localization;
 global using Microsoft.Extensions.Localization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -49,8 +48,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 builder.Services.AddHttpContextAccessor();
-builder.Services.AddLocalization(options => options.ResourcesPath = "GlobalStrings");
-builder.Services.AddScoped(typeof(IStringLocalizer<>), typeof(MyStringLocalizer<>));
 
 var app = builder.Build();
 
