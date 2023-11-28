@@ -1,5 +1,6 @@
 ﻿@inject NavigationManager NavigationManager
 @inject IProductService ProductService
+@inject IStringLocalizer<App> Localizer
 
 <div class="input-group">
     <input @bind-value="searchText"
@@ -8,7 +9,7 @@
            list="products"
            @onkeyup="HandleSearch"
            class="form-control"
-           placeholder="Search..."
+           placeholder=@Localizer[nameof(ResourceStrings.SearchPlaceholder)]
            @ref="searchInput" />
     <datalist id="products">
         @foreach (var suggestion in suggestions)

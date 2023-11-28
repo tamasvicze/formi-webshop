@@ -1,15 +1,16 @@
 ﻿@page "/orders"
 @inject IOrderService OrderService
+@inject IStringLocalizer<App> Localizer
 
-<h3>Orders</h3>
+<h3>@Localizer[nameof(ResourceStrings.Orders)]</h3>
 
 @if (orders == null)
 {
-    <span>Loading your orders...</span>
+    <span>@Localizer[nameof(ResourceStrings.LoadingYourOrders)]</span>
 }
 else if (orders.Count <= 0)
 {
-    <span>You have no orders yet.</span>
+    <span>@Localizer[nameof(ResourceStrings.NoOrdersYet)]</span>
 }
 else
 {
@@ -22,7 +23,7 @@ else
             <div class="details">
                 <h4>@order.Product</h4>
                 <span>@order.OrderDate</span><br/>
-                <a href="orders/@order.Id">Show more...</a>
+                <a href="orders/@order.Id">@Localizer[nameof(ResourceStrings.ShowMore)]</a>
             </div>
             <div class="order-price">$@order.TotalPrice</div>
         </div>

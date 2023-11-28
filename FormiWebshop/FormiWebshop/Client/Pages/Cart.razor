@@ -3,9 +3,10 @@
 @inject IOrderService OrderService
 @inject IAuthService AuthService
 @inject NavigationManager NavigationManager
+@inject IStringLocalizer<App> Localizer
 
-<PageTitle>Shopping Cart</PageTitle>
-<h3>Shopping Cart</h3>
+<PageTitle>@Localizer[nameof(ResourceStrings.ShoppingCart)]</PageTitle>
+<h3>@Localizer[nameof(ResourceStrings.ShoppingCart)]</h3>
 
 @if (cartProducts == null || cartProducts.Count == 0)
 {
@@ -28,7 +29,7 @@ else
                            class="form-control input-quantity"
                            min="1" />
                     <button class="btn-delete" @onclick="@(() => RemoveProductFromCart(product.ProductId, product.ProductTypeId))">
-                        Delete
+                        @Localizer[nameof(ResourceStrings.Delete)]
                     </button>
                 </div>
                 @* TODO Align total cart price under item prices*@
@@ -42,11 +43,11 @@ else
     @if (isAuthenticated)
     {
         <div>
-            <h5>Delivery Address</h5>
+            <h5>@Localizer[nameof(ResourceStrings.DeliveryAddress)]</h5>
             <AddressForm/>
         </div>
     }
-    <button @onclick="PlaceOrder" class="btn alert-success float-end mt-1">Checkout</button>
+    <button @onclick="PlaceOrder" class="btn alert-success float-end mt-1">@Localizer[nameof(ResourceStrings.Checkout)]</button>
 
 }
 
@@ -74,7 +75,7 @@ else
         cartProducts = await CartService.GetCartProdcuts();
         if (cartProducts == null || cartProducts.Count == 0)
         {
-            message = "Your cart is empty.";
+            message = "Your cart is empty";
         }
     }
 

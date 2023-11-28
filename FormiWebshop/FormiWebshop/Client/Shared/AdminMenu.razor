@@ -1,9 +1,10 @@
 ﻿@inject AuthenticationStateProvider AuthStateProvider
+@inject IStringLocalizer<App> Localizer
 @using System.Security.Claims
 
 @if (authorized)
 {
-    <a class="dropdown-item" href="admin/categories">Categories </a>
+    <a class="dropdown-item" href="admin/categories">@Localizer[nameof(ResourceStrings.Categories)]</a>
     <hr/>
 }
 

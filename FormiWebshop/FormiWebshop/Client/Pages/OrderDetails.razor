@@ -1,9 +1,10 @@
 ﻿@page "/orders/{orderId:int}"
 @inject IOrderService OrderService
+@inject IStringLocalizer<App> Localizer
 
 @if (order == null)
 {
-    <span>Loading order...</span>
+    <span>@Localizer[nameof(ResourceStrings.LoadingOrder)]</span>
 }
 else
 {

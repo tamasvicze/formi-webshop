@@ -129,6 +129,12 @@
   <data name="CategoryNotFound" xml:space="preserve">
     <value>A kategória nem található</value>
   </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>Megrendelés</value>
+  </data>
+  <data name="DeliveryAddress" xml:space="preserve">
+    <value>Szállitási cím</value>
+  </data>
   <data name="FormiWebshop" xml:space="preserve">
     <value>Formi Webáruház</value>
   </data>
@@ -137,5 +143,110 @@
   </data>
   <data name="Language" xml:space="preserve">
     <value>Nyelv</value>
+  </data>
+  <data name="SearchPlaceholder" xml:space="preserve">
+    <value>Keresés...</value>
+  </data>
+  <data name="ShoppingCart" xml:space="preserve">
+    <value>Kosár</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Keresztnév</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Vezetéknév</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Város</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Utca</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>Irányítószám</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Megye</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Ország</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Mentés</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Szerkesztés</value>
+  </data>
+  <data name="AddressNotSpecifiedYet" xml:space="preserve">
+    <value>Még nem adtál meg szállítási címet</value>
+  </data>
+  <data name="AddAnAddress" xml:space="preserve">
+    <value>Adj hozzá egy címet</value>
+  </data>
+  <data name="LoadingCart" xml:space="preserve">
+    <value>Kosár betöltése...</value>
+  </data>
+  <data name="YourCartIsEmpty" xml:space="preserve">
+    <value>A kosarad üres</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>Megrendelések</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Kijelentkezés</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Bejelentkezés</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Regisztráció</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Eltávolít</value>
+  </data>
+  <data name="LoggedInWithEmail" xml:space="preserve">
+    <value>Szia! Az aktuális e-mail címed</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Jelszó megváltoztatása</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Új jelszó</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Új jelszó megerősítése</value>
+  </data>
+  <data name="LoadingYourOrders" xml:space="preserve">
+    <value>Megrendeléseid betöltése...</value>
+  </data>
+  <data name="NoOrdersYet" xml:space="preserve">
+    <value>Még nincs rendelésed</value>
+  </data>
+  <data name="ShowMore" xml:space="preserve">
+    <value>Részletek...</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Név</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>Látható</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Jelszó</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Jelszó megerősítése</value>
+  </data>
+  <data name="LoadingOrder" xml:space="preserve">
+    <value>Megrendelés betöltése...</value>
   </data>
 </root>

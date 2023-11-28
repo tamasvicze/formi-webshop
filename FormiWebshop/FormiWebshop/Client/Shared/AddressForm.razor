@@ -1,54 +1,55 @@
 ﻿@inject IAddressService AddressService
+@inject IStringLocalizer<App> Localizer
 
 @if (address == null)
 {
     <span>
-        You haven't specified a delivery address yet.
-        <button class="btn" @onclick="InitAddress">Add an address</button>
+        @Localizer[nameof(ResourceStrings.AddressNotSpecifiedYet)]
+        <button class="btn" @onclick="InitAddress">@Localizer[nameof(ResourceStrings.AddAnAddress)]</button>
     </span>
 }
 else if (!editAddress)
 {
     <p>
-        <span>@address.FirstName @address.LastName</span><br/>
+        <span>@address.LastName @address.FirstName</span><br />
         <span>@address.City</span><br />
         <span>@address.Street, @address.Zip, @address.State</span><br />
         <span>@address.Country</span><br />
     </p>
-    <button class="btn btn-primary" @onclick="EditAddress">Edit</button>
+    <button class="btn btn-primary" @onclick="EditAddress">@Localizer[nameof(ResourceStrings.Edit)]</button>
 }
 else
 {
     <EditForm Model="address" OnSubmit="SubmitAddress">
         <div class="mb-3">
-            <label for="firstname">First Name</label>
-            <InputText id="firstname" @bind-Value="address.FirstName" class="form-control"/>
-        </div>
-        <div class="mb-3">
-            <label for="lastname">Last Name</label>
+            <label for="lastname">@Localizer[nameof(ResourceStrings.LastName)]</label>
             <InputText id="lastname" @bind-Value="address.LastName" class="form-control" />
         </div>
         <div class="mb-3">
-            <label for="city">City</label>
-            <InputText id="city" @bind-Value="address.City" class="form-control" />
+            <label for="firstname">@Localizer[nameof(ResourceStrings.FirstName)]</label>
+            <InputText id="firstname" @bind-Value="address.FirstName" class="form-control"/>
         </div>
         <div class="mb-3">
-            <label for="street">Street</label>
-            <InputText id="street" @bind-Value="address.Street" class="form-control" />
+            <label for="city">@Localizer[nameof(ResourceStrings.City)]</label>
+            <InputText id="city" @bind-Value="address.City" class="form-control"/>
         </div>
         <div class="mb-3">
-            <label for="zip">ZIP/Postal Code</label>
-            <InputText id="zip" @bind-Value="address.Zip" class="form-control" />
+            <label for="street">@Localizer[nameof(ResourceStrings.Street)]</label>
+            <InputText id="street" @bind-Value="address.Street" class="form-control"/>
         </div>
         <div class="mb-3">
-            <label for="state">State</label>
-            <InputText id="state" @bind-Value="address.State" class="form-control" />
+            <label for="zip">@Localizer[nameof(ResourceStrings.Zip)]</label>
+            <InputText id="zip" @bind-Value="address.Zip" class="form-control"/>
         </div>
         <div class="mb-3">
-            <label for="country">Country</label>
-            <InputText id="country" @bind-Value="address.Country" class="form-control" />
+            <label for="state">@Localizer[nameof(ResourceStrings.State)]</label>
+            <InputText id="state" @bind-Value="address.State" class="form-control"/>
         </div>
-        <button type="submit" class="btn btn-primary">Save</button>
+        <div class="mb-3">
+            <label for="country">@Localizer[nameof(ResourceStrings.Country)]</label>
+            <InputText id="country" @bind-Value="address.Country" class="form-control"/>
+        </div>
+        <button type="submit" class="btn btn-primary">@Localizer[nameof(ResourceStrings.Save)]</button>
     </EditForm>
 }
 
@@ -77,5 +78,4 @@ else
     {
         editAddress = true;
     }
-
 }

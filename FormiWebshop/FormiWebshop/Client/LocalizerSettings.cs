@@ -8,7 +8,7 @@
             new List<CultureWithName>()
             {
                 new CultureWithName("English", "en-US"),
-                new CultureWithName("Hungarian", "hu")
+                new CultureWithName("Magyar", "hu")
             };
     }
 }

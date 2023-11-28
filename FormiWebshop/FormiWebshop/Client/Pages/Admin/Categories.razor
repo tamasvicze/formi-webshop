@@ -7,9 +7,9 @@
 <h3>@Localizer[nameof(ResourceStrings.Categories)]</h3>
 
 <div class="header">
-    <div class="col">Name</div>
-    <div class="col">Url</div>
-    <div class="col">Visible</div>
+    <div class="col">@Localizer[nameof(ResourceStrings.Name)]</div>
+    <div class="col">@Localizer[nameof(ResourceStrings.Url)]</div>
+    <div class="col">@Localizer[nameof(ResourceStrings.Visible)]</div>
     <div class="col"></div>
 </div>
 
@@ -63,7 +63,7 @@
     }
 }
 <button class="btn btn-primary" @onclick="CreateNewCategory">
-    <i class="oi oi-plus"></i> @Localizer["Add new category"]
+    <i class="oi oi-plus"></i> @Localizer[nameof(ResourceStrings.AddNewCategory)]
 </button>
 
 

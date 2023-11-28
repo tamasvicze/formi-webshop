@@ -5,24 +5,25 @@
 @inject NavigationManager NavigationManager
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @inject ICartService CartService
+@inject IStringLocalizer<App> Localizer
 
-<PageTitle>Login</PageTitle>
+<PageTitle>@Localizer[nameof(ResourceStrings.Login)]</PageTitle>
 
-<h3>Login</h3>
+<h3>@Localizer[nameof(ResourceStrings.Login)]</h3>
 
 <EditForm Model="user" OnValidSubmit="HandleLogin">
     <DataAnnotationsValidator></DataAnnotationsValidator>
     <div class="mb-3">
-        <label for="email">Email</label>
+        <label for="email">@Localizer[nameof(ResourceStrings.Email)]</label>
         <InputText id="email" @bind-Value="user.Email" class="form-control"></InputText>
         <ValidationMessage For="@(() => user.Email)"></ValidationMessage>
     </div>
     <div class="mb-3">
-        <label for="password">Password</label>
+        <label for="password">@Localizer[nameof(ResourceStrings.Password)]</label>
         <InputText id="password" @bind-Value="user.Password" class="form-control" type="password"></InputText>
         <ValidationMessage For="@(() => user.Password)"></ValidationMessage>
     </div>
-    <button type="submit" class="btn btn-primary">Login</button>
+    <button type="submit" class="btn btn-primary">@Localizer[nameof(ResourceStrings.Login)]</button>
 </EditForm>
 <div class="text-danger">
     <span>@errorMessage</span>
