@@ -117,10 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Add new category" xml:space="preserve">
+    <value>Új kategória hozzáadása</value>
+  </data>
+  <data name="Books" xml:space="preserve">
+    <value>Könyvek</value>
+  </data>
   <data name="Categories" xml:space="preserve">
     <value>Kategóriák</value>
   </data>
+  <data name="Category not found" xml:space="preserve">
+    <value>A kategória nem található</value>
+  </data>
   <data name="Formi Webshop" xml:space="preserve">
     <value>Formi Webáruház</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Főoldal</value>
   </data>
 </root>

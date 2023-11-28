@@ -2059,6 +2059,11 @@
         },
         "runtime": {
           "FormiWebshop.Shared.dll": {}
+        },
+        "resources": {
+          "hu/FormiWebshop.Shared.resources.dll": {
+            "locale": "hu"
+          }
         }
       }
     }

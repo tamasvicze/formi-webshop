@@ -9,6 +9,7 @@ global using FormiWebshop.Server.Services.OrderService;
 global using FormiWebshop.Server.Services.PaymentService;
 global using FormiWebshop.Server.Services.AddressService;
 global using Microsoft.Extensions.Localization;
+global using FormiWebshop.Shared.Resources;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 

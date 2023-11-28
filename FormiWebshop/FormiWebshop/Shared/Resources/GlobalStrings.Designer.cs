@@ -61,6 +61,24 @@ namespace FormiWebshop.Shared.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add new category.
+        /// </summary>
+        public static string Add_new_category {
+            get {
+                return ResourceManager.GetString("Add new category", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Books.
+        /// </summary>
+        public static string Books {
+            get {
+                return ResourceManager.GetString("Books", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Categories.
         /// </summary>
         public static string Categories {
@@ -70,11 +88,29 @@ namespace FormiWebshop.Shared.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Category not found.
+        /// </summary>
+        public static string Category_not_found {
+            get {
+                return ResourceManager.GetString("Category not found", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Formi Webshop.
         /// </summary>
         public static string Formi_Webshop {
             get {
                 return ResourceManager.GetString("Formi Webshop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Home.
+        /// </summary>
+        public static string Home {
+            get {
+                return ResourceManager.GetString("Home", resourceCulture);
             }
         }
     }
