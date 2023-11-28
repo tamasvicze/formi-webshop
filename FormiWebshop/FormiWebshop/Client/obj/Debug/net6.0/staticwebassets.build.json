@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JK4dkNAhNwJzSJEmS3riAGrbE3TtPUXckHRgDhj/3Cc=",
+  "Hash": "bXoZvcCBqgvHzgSdYzTZ4fFDlQtyTBw8l+37/mft6Ow=",
   "Source": "FormiWebshop.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.25\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\en-US\\FormiWebshop.Client.resources.dll",
+      "SourceId": "FormiWebshop.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/en-US/FormiWebshop.Client.resources.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Related",
+      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\FormiWebshop.Client.dll",
+      "AssetTraitName": "Culture",
+      "AssetTraitValue": "en-US",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\en-US\\FormiWebshop.Client.resources.dll"
+    },
+    {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\FormiWebshop.Client.dll",
       "SourceId": "FormiWebshop.Client",
       "SourceType": "Computed",
@@ -187,21 +204,21 @@
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\bin\\Debug\\net6.0\\FormiWebshop.Shared.pdb"
     },
     {
-      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\hu\\FormiWebshop.Shared.resources.dll",
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\hu\\FormiWebshop.Client.resources.dll",
       "SourceId": "FormiWebshop.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/hu/FormiWebshop.Shared.resources.dll",
+      "RelativePath": "_framework/hu/FormiWebshop.Client.resources.dll",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Related",
-      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\FormiWebshop.Shared.dll",
+      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\FormiWebshop.Client.dll",
       "AssetTraitName": "Culture",
       "AssetTraitValue": "hu",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Shared\\bin\\Debug\\net6.0\\hu\\FormiWebshop.Shared.resources.dll"
+      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\hu\\FormiWebshop.Client.resources.dll"
     },
     {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
@@ -1020,6 +1037,40 @@
       "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.1.0\\lib\\netstandard1.3\\Microsoft.DotNet.PlatformAbstractions.dll"
     },
     {
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "SourceId": "FormiWebshop.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\lib\\net6.0\\Microsoft.EntityFrameworkCore.Abstractions.dll"
+    },
+    {
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.dll",
+      "SourceId": "FormiWebshop.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\lib\\net6.0\\Microsoft.EntityFrameworkCore.dll"
+    },
+    {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.dll",
       "SourceId": "FormiWebshop.Client",
       "SourceType": "Computed",
@@ -1034,7 +1085,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.2.0\\lib\\netstandard2.0\\Microsoft.Extensions.Caching.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Caching.Abstractions.dll"
     },
     {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.dll",
@@ -1051,7 +1102,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.2.0\\lib\\netstandard2.0\\Microsoft.Extensions.Caching.Memory.dll"
+      "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Caching.Memory.dll"
     },
     {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll",
@@ -1170,7 +1221,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+      "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyModel.dll",
@@ -1340,7 +1391,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Logging.dll"
+      "OriginalItemSpec": "C:\\Users\\tamas.vicze\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.dll"
     },
     {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.ObjectPool.dll",
@@ -4607,6 +4658,23 @@
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Debug.dll"
     },
     {
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\1+Tupi3d.gz",
+      "SourceId": "FormiWebshop.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\1E6Ngzad.gz",
       "SourceId": "FormiWebshop.Client",
       "SourceType": "Computed",
@@ -5066,23 +5134,6 @@
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Cryptography.Internal.dll"
     },
     {
-      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\9gHBoIcx.gz",
-      "SourceId": "FormiWebshop.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/hu/FormiWebshop.Shared.resources.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\hu\\FormiWebshop.Shared.resources.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\hu\\FormiWebshop.Shared.resources.dll"
-    },
-    {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\9KBaoeJA.gz",
       "SourceId": "FormiWebshop.Client",
       "SourceType": "Computed",
@@ -5404,6 +5455,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.RegularExpressions.dll"
+    },
+    {
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\bz65Wl1U.gz",
+      "SourceId": "FormiWebshop.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/hu/FormiWebshop.Client.resources.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\hu\\FormiWebshop.Client.resources.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\hu\\FormiWebshop.Client.resources.dll"
     },
     {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\bZabv3Yu.gz",
@@ -6188,6 +6256,23 @@
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.timezones.blat"
     },
     {
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\i8zjotQ7.gz",
+      "SourceId": "FormiWebshop.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.dll"
+    },
+    {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\IcmkDNsS.gz",
       "SourceId": "FormiWebshop.Client",
       "SourceType": "Computed",
@@ -6492,6 +6577,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll"
+    },
+    {
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\kj8Djzs+.gz",
+      "SourceId": "FormiWebshop.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.dll"
     },
     {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\kKyt6Uoz.gz",
@@ -7055,6 +7157,23 @@
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Data.Common.dll"
     },
     {
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\o5GhapQu.gz",
+      "SourceId": "FormiWebshop.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
+    },
+    {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\Od2KwgYe.gz",
       "SourceId": "FormiWebshop.Client",
       "SourceType": "Computed",
@@ -7276,23 +7395,6 @@
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Process.dll"
     },
     {
-      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\PYTY3G4U.gz",
-      "SourceId": "FormiWebshop.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
-    },
-    {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\qaZWHR++.gz",
       "SourceId": "FormiWebshop.Client",
       "SourceType": "Computed",
@@ -7308,6 +7410,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.InteropServices.RuntimeInformation.dll"
+    },
+    {
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\qBcJA1C1.gz",
+      "SourceId": "FormiWebshop.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/en-US/FormiWebshop.Client.resources.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\en-US\\FormiWebshop.Client.resources.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\en-US\\FormiWebshop.Client.resources.dll"
     },
     {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\QLFRhWo1.gz",
@@ -7376,23 +7495,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.WebHeaderCollection.dll"
-    },
-    {
-      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\qSdBnmg+.gz",
-      "SourceId": "FormiWebshop.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
     },
     {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\Qt3zXvts.gz",
@@ -7837,23 +7939,6 @@
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.dll"
     },
     {
-      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\t1Xs9Rff.gz",
-      "SourceId": "FormiWebshop.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Caching.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.dll"
-    },
-    {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\taK2KHJX.gz",
       "SourceId": "FormiWebshop.Client",
       "SourceType": "Computed",
@@ -8177,6 +8262,23 @@
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.Brotli.dll"
     },
     {
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\VSJz8sNQ.gz",
+      "SourceId": "FormiWebshop.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Abstractions.dll"
+    },
+    {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\VsRqShPI.gz",
       "SourceId": "FormiWebshop.Client",
       "SourceType": "Computed",
@@ -8243,6 +8345,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
+    },
+    {
+      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\WKJp0BaT.gz",
+      "SourceId": "FormiWebshop.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Memory.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.dll"
     },
     {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\wtzWZGux.gz",
@@ -8651,23 +8770,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.Immutable.dll"
-    },
-    {
-      "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\ZsFS8izJ.gz",
-      "SourceId": "FormiWebshop.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Caching.Memory.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.dll"
     },
     {
       "Identity": "D:\\Repos\\Hobby\\EcommerceBlazorDotnet6\\FormiWebshop\\FormiWebshop\\Client\\obj\\Debug\\net6.0\\build-gz\\zy960Tf+.gz",

@@ -99,7 +99,8 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\FormiWebshop.Shared.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\FormiWebshop.Client.pdb
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\FormiWebshop.Shared.pdb
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\hu\FormiWebshop.Shared.resources.dll
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\en-US\FormiWebshop.Client.resources.dll
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\hu\FormiWebshop.Client.resources.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.csproj.AssemblyReference.cache
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.GeneratedMSBuildEditorConfig.editorconfig
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.AssemblyInfoInputs.cache

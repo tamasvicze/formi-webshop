@@ -1,0 +1,43 @@
+﻿@inject NavigationManager NavigationManager
+@inject ILocalStorageService LocalStorage
+@inject IStringLocalizer<App> Localizer
+
+<span>
+    @Localizer[nameof(ResourceStrings.Language)]:&nbsp;
+    <select @onchange="NewCultureSelectedAsync">
+        @foreach (var culture in LocalizerSettings.SupportedCulturesWithName)
+        {
+            @if (SelectedCulture != null && culture == SelectedCulture)
+            {
+                <option selected value="@culture.Culture">@culture.Name</option>
+            }
+            else
+            {
+                <option value="@culture.Culture">@culture.Name</option>
+            }
+        }
+    </select>
+</span>
+
+@code
+{
+    CultureWithName SelectedCulture = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var culture = await LocalStorage.GetItemAsync<string>("culture");
+        if (culture == "")
+            SelectedCulture = LocalizerSettings.NeutralCulture;
+        else
+            SelectedCulture = (from x in LocalizerSettings.SupportedCulturesWithName
+                where x.Culture == culture
+                select x).FirstOrDefault();
+    }
+
+    private async Task NewCultureSelectedAsync(ChangeEventArgs args)
+    {
+        string cultureString = args.Value.ToString();
+        await LocalStorage.SetItemAsync<string>("culture", cultureString);
+        NavigationManager.NavigateTo(NavigationManager.Uri, true);
+    }
+}

@@ -9,11 +9,15 @@ global using FormiWebshop.Server.Services.OrderService;
 global using FormiWebshop.Server.Services.PaymentService;
 global using FormiWebshop.Server.Services.AddressService;
 global using Microsoft.Extensions.Localization;
-global using FormiWebshop.Shared.Resources;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
+var supportedCultures = new[] { "en", "hu" };
+var localizationOptions = new RequestLocalizationOptions()
+    .SetDefaultCulture(supportedCultures[0])
+    .AddSupportedCultures(supportedCultures)
+    .AddSupportedUICultures(supportedCultures);
 
 // Add services to the container.
 
@@ -49,6 +53,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddLocalization(options => { options.ResourcesPath = "App"; });
 
 var app = builder.Build();
 
@@ -80,6 +85,6 @@ app.UseAuthorization();
 app.MapRazorPages();
 app.MapControllers();
 app.MapFallbackToFile("index.html");
-app.UseRequestLocalization();
+app.UseRequestLocalization(localizationOptions);
 
 app.Run();

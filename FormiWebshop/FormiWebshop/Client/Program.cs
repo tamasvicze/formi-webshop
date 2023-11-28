@@ -17,6 +17,10 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.AspNetCore.Localization;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
+builder.Services.AddLocalization(options =>
+{
+    options.ResourcesPath = "Resources";
+});
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
@@ -31,6 +35,7 @@ builder.Services.AddScoped<IAddressService, AddressService>();
 builder.Services.AddOptions();
 builder.Services.AddAuthorizationCore();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthStateProvider>();
-builder.Services.AddLocalization();
 
-await builder.Build().RunAsync();
+var host = builder.Build();
+await host.SetDefaultCulture(); // Retrieves local storage value and sets the thread's current culture.
+await host.RunAsync();

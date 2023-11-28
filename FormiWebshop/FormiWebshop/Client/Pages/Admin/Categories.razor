@@ -1,10 +1,10 @@
 ﻿@page "/admin/categories"
-@inject IStringLocalizer<GlobalStrings> Localizer
+@inject IStringLocalizer<App> Localizer
 @inject ICategoryService CategoryService
 @attribute [Authorize(Roles = "Admin")]
 @implements IDisposable
 
-<h3>@Localizer["Categories"]</h3>
+<h3>@Localizer[nameof(ResourceStrings.Categories)]</h3>
 
 <div class="header">
     <div class="col">Name</div>

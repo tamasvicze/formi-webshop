@@ -2039,6 +2039,7 @@
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.14",
           "Microsoft.AspNetCore.Mvc.Localization": "2.2.0",
           "Microsoft.AspNetCore.WebUtilities": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "7.0.9",
           "Microsoft.Extensions.Localization": "8.0.0"
         },
         "runtime": {
@@ -2059,11 +2060,6 @@
         },
         "runtime": {
           "FormiWebshop.Shared.dll": {}
-        },
-        "resources": {
-          "hu/FormiWebshop.Shared.resources.dll": {
-            "locale": "hu"
-          }
         }
       }
     }
