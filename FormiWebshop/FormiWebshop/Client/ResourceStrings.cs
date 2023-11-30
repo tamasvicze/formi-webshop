@@ -46,7 +46,13 @@
         Password,
         ConfirmPassword,
         LoadingOrder,
-        Counter,
-        CurrentCount
+        ProductTypes,
+        AddNewProductType,
+        Products,
+        LoadingProducts,
+        ProductTitle,
+        Variant,
+        Price,
+        AddNewProduct
     }
 }

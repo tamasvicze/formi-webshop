@@ -249,4 +249,28 @@
   <data name="LoadingOrder" xml:space="preserve">
     <value>Loading order...</value>
   </data>
+  <data name="ProductTypes" xml:space="preserve">
+    <value>Product types</value>
+  </data>
+  <data name="AddNewProductType" xml:space="preserve">
+    <value>Add new product type</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="LoadingProducts" xml:space="preserve">
+    <value>Loading products...</value>
+  </data>
+  <data name="ProductTitle" xml:space="preserve">
+    <value>Product title</value>
+  </data>
+  <data name="Variant" xml:space="preserve">
+    <value>Variant</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="AddNewProduct" xml:space="preserve">
+    <value>Add new product</value>
+  </data>
 </root>

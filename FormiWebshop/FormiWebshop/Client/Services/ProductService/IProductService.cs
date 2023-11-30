@@ -5,7 +5,8 @@ namespace FormiWebshop.Client.Services.ProductService
     public interface IProductService
     {
         event Action ProductsChanged;
-        List<Product> Products { get; set; } 
+        List<Product> Products { get; set; }
+        List<Product> AdminProducts { get; set; }
         string Message { get; set; }
         int CurrentPage { get; set; }
         int PageCount { get; set; }
@@ -14,5 +15,6 @@ namespace FormiWebshop.Client.Services.ProductService
         Task<ServiceResponse<Product>> GetProduct(int productId);
         Task SearchProduct(string searchText, int page);
         Task<List<string>> GetProductSearchSuggestions(string searchText);
+        Task GetAdminProducts();
     }
 }

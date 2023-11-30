@@ -11,6 +11,7 @@
 
         public event Action? ProductsChanged;
         public List<Product> Products { get; set; } = new List<Product>();
+        public List<Product> AdminProducts { get; set; }
         public string Message { get; set; } = "Loading products...";
         public int CurrentPage { get; set; } = 1;
         public int PageCount { get; set; } = 0;
@@ -47,6 +48,16 @@
         {
             var result = await _http.GetFromJsonAsync<ServiceResponse<List<string>>>($"api/product/searchsuggestions/{searchText}");
             return result.Data;
+        }
+
+        public async Task GetAdminProducts()
+        {
+            var result = await _http.GetFromJsonAsync<ServiceResponse<List<Product>>>("api/product/admin");
+            AdminProducts = result.Data;
+            CurrentPage = 1;
+            PageCount = 0;
+            if (AdminProducts.Count == 0)
+                Message = "No products found";
         }
 
         public async Task SearchProduct(string searchText, int page)

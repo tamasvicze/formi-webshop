@@ -249,4 +249,28 @@
   <data name="LoadingOrder" xml:space="preserve">
     <value>Megrendelés betöltése...</value>
   </data>
+  <data name="ProductTypes" xml:space="preserve">
+    <value>Terméktípusok</value>
+  </data>
+  <data name="AddNewProductType" xml:space="preserve">
+    <value>Új terméktípus hozzáadása</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Termékek</value>
+  </data>
+  <data name="LoadingProducts" xml:space="preserve">
+    <value>Termékek betöltése...</value>
+  </data>
+  <data name="ProductTitle" xml:space="preserve">
+    <value>Termék neve</value>
+  </data>
+  <data name="Variant" xml:space="preserve">
+    <value>Változat</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Ár</value>
+  </data>
+  <data name="AddNewProduct" xml:space="preserve">
+    <value>Új termék hozzáadása</value>
+  </data>
 </root>

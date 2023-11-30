@@ -1071,3 +1071,5 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\refint\FormiWebshop.Client.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\FormiWebshop.Client.pdb
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\ref\FormiWebshop.Client.dll
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\scopedcss\Pages\Admin\ProductTypes.razor.rz.scp.css
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\scopedcss\Pages\Admin\Products.Razor.rz.scp.css

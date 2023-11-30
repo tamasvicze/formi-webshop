@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FormiWebshop.Server.Controllers
@@ -14,10 +15,17 @@ namespace FormiWebshop.Server.Controllers
             _productService = productService;
         }
 
+        [HttpGet("admin"), Authorize(Roles = "Admin")]
+        public async Task<ActionResult<ServiceResponse<List<Product>>>> GetAdminProducts()
+        {
+            var result = await _productService.GetAdminProducts();
+            return Ok(result);
+        }
+
         [HttpGet]
         public async Task<ActionResult<ServiceResponse<List<Product>>>> GetProducts()
         {
-            var result = await _productService.GetProductListAsync();
+            var result = await _productService.GetProductsAsync();
             return Ok(result);
         }
 
