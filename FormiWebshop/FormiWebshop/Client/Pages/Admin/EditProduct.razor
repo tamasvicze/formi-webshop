@@ -1,0 +1,71 @@
+﻿@page "/admin/product"
+@page "/admin/product/{id:int}"
+@inject IProductService ProductService
+@inject IProductTypeService ProductTypeService
+@inject ICategoryService CategoryService
+@inject NavigationManager NavigationManager
+@inject IStringLocalizer<App> Localizer
+
+@if (loading)
+{
+    <span>@msg</span>
+}
+else
+{
+    @if (product.Editing)
+    {
+        <h3>Edit "@product.Title"</h3>
+    }
+    else if (product.IsNew)
+    {
+        <h3>Create a new Product</h3>
+    }
+
+    <EditForm Model="product" OnValidSubmit="AddOrUpdateProduct">
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+        <div class="mb-0">
+            <label for="title">@Localizer[nameof(ResourceStrings.Title)]</label>
+            <InputText id="title" @bind-Value="product.Title" class="form-control"></InputText>
+        </div>
+    </EditForm>
+}
+
+<h3>@Localizer[nameof(ResourceStrings.EditProduct)]</h3>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    Product product = new Product();
+    bool loading = true;
+    string btnText = "";
+    string msg = "Loading...";
+
+    protected override Task OnInitializedAsync()
+    {
+        await ProductTypeService.GetProductTypes();
+        await CategoryService.GetAdminCategories();
+    }
+
+    protected override Task OnParametersSetAsync()
+    {
+        if (Id == 0)
+        {
+            product = new Product { IsNew = true };
+            btnText = "Create Product";
+        }
+        else
+        {
+            Product dbProduct = (await ProductService.GetProduct(Id)).Data;
+            if (dbProduct == null)
+            {
+                msg = $"Product with Id '{Id}' does not exist!";
+                return;
+            }
+            product = dbProduct;
+            product.Editing = true;
+            btnText = "Update Product";
+        }
+        loading = false;
+    }
+}

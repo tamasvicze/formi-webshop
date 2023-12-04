@@ -53,6 +53,8 @@
         ProductTitle,
         Variant,
         Price,
-        AddNewProduct
+        AddNewProduct,
+        EditProduct,
+        Title
     }
 }

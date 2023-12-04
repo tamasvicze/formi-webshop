@@ -9,12 +9,13 @@ global using FormiWebshop.Client.Services.CartService;
 global using FormiWebshop.Client.Services.AddressService;
 global using Microsoft.AspNetCore.Authorization;
 global using FormiWebshop.Client.Services.ProductTypeService;
+global using Microsoft.Extensions.Localization;
+global using FormiWebshop.Client;
 using Blazored.LocalStorage;
 using FormiWebshop.Client;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using Microsoft.AspNetCore.Localization;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.Services.AddLocalization(options =>
