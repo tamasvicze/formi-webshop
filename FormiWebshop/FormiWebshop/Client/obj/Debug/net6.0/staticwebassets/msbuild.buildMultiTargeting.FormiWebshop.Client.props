@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FormiWebshop.Client.props" />
+</Project>

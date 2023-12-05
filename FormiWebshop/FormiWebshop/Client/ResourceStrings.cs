@@ -55,6 +55,14 @@
         Price,
         AddNewProduct,
         EditProduct,
-        Title
+        Title,
+        ImageUrl,
+        Description,
+        ProductType,
+        OriginalPrice,
+        AddVariant,
+        Category,
+        Featured,
+        DeleteProduct
     }
 }
