@@ -303,4 +303,7 @@
   <data name="DeleteProduct" xml:space="preserve">
     <value>Termék törlése</value>
   </data>
+  <data name="Images" xml:space="preserve">
+    <value>Képek</value>
+  </data>
 </root>

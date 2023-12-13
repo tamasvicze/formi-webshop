@@ -141,6 +141,28 @@ namespace FormiWebshop.Server.Migrations
                         });
                 });
 
+            modelBuilder.Entity("FormiWebshop.Shared.Image", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Data")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Images");
+                });
+
             modelBuilder.Entity("FormiWebshop.Shared.Order", b =>
                 {
                     b.Property<int>("Id")
@@ -643,6 +665,13 @@ namespace FormiWebshop.Server.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("FormiWebshop.Shared.Image", b =>
+                {
+                    b.HasOne("FormiWebshop.Shared.Product", null)
+                        .WithMany("Images")
+                        .HasForeignKey("ProductId");
+                });
+
             modelBuilder.Entity("FormiWebshop.Shared.OrderItem", b =>
                 {
                     b.HasOne("FormiWebshop.Shared.Order", "Order")
@@ -707,6 +736,8 @@ namespace FormiWebshop.Server.Migrations
 
             modelBuilder.Entity("FormiWebshop.Shared.Product", b =>
                 {
+                    b.Navigation("Images");
+
                     b.Navigation("Variants");
                 });
 

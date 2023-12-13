@@ -303,4 +303,7 @@
   <data name="DeleteProduct" xml:space="preserve">
     <value>Delete product</value>
   </data>
+  <data name="Images" xml:space="preserve">
+    <value>Images</value>
+  </data>
 </root>

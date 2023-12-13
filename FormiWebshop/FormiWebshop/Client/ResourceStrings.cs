@@ -63,6 +63,7 @@
         AddVariant,
         Category,
         Featured,
-        DeleteProduct
+        DeleteProduct,
+        Images
     }
 }
