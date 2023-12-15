@@ -306,4 +306,7 @@
   <data name="Images" xml:space="preserve">
     <value>Képek</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
 </root>

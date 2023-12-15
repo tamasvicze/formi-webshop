@@ -64,6 +64,7 @@
         Category,
         Featured,
         DeleteProduct,
-        Images
+        Images,
+        Remove
     }
 }

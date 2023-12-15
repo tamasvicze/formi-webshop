@@ -80,6 +80,10 @@
             "Microsoft.Extensions.Localization": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.11.1, )"
             }
           },
           "imports": [
@@ -208,6 +212,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            },
             "Stripe.net": {
               "target": "Package",
               "version": "[43.3.0, )"
@@ -301,6 +309,10 @@
             "Microsoft.Extensions.Localization": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.11.1, )"
             }
           },
           "imports": [
