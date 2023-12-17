@@ -42,8 +42,17 @@ else
             {
                 foreach (var image in product.Images)
                 {
-                    <img src="@image.Data">
-                    <button type="button" @onclick="(() => RemoveImage(image.Id))">@Localizer[nameof(ResourceStrings.Remove)]</button>
+                    @* <img src="@image.Data">
+                    <button type="button" @onclick="(() => RemoveImage(image.Id))">@Localizer[nameof(ResourceStrings.Remove)]</button> *@
+
+                    <MudCard>
+                        <MudCardContent>
+                            <MudImage Src="@image.Data"></MudImage>
+                        </MudCardContent>
+                        <MudCardActions>
+                            <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="@(() => RemoveImage(Id))">@Localizer[nameof(ResourceStrings.Remove)]</MudButton>
+                        </MudCardActions>
+                    </MudCard>
                 }
             }
         </div>
