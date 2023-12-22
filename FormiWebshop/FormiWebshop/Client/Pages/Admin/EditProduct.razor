@@ -33,7 +33,7 @@ else
             <label for="imageUrl">@Localizer[nameof(ResourceStrings.ImageUrl)]</label>
             <InputText id="imageUrl" @bind-Value="product.ImageUrl" class="form-control"></InputText>
         </div>
-        <div class="mb-0">
+        <div class="mb-0" style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center;">
             @if (!string.IsNullOrEmpty(product.ImageUrl))
             {
                 <img src="@product.ImageUrl">
@@ -45,12 +45,12 @@ else
                     @* <img src="@image.Data">
                     <button type="button" @onclick="(() => RemoveImage(image.Id))">@Localizer[nameof(ResourceStrings.Remove)]</button> *@
 
-                    <MudCard>
+                    <MudCard Class="ma-2">
                         <MudCardContent>
                             <MudImage Src="@image.Data"></MudImage>
                         </MudCardContent>
-                        <MudCardActions>
-                            <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="@(() => RemoveImage(Id))">@Localizer[nameof(ResourceStrings.Remove)]</MudButton>
+                        <MudCardActions Style="justify-content: center;">
+                            <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="@(() => RemoveImage(image.Id))">@Localizer[nameof(ResourceStrings.Remove)]</MudButton>
                         </MudCardActions>
                     </MudCard>
                 }

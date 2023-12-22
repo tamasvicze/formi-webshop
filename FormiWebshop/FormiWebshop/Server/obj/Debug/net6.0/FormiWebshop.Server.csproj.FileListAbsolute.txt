@@ -124,3 +124,4 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.pdb
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.genruntimeconfig.cache
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\ref\FormiWebshop.Server.dll
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\MudBlazor.dll
