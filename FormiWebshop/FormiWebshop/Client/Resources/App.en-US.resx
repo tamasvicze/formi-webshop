@@ -309,4 +309,7 @@
   <data name="Remove" xml:space="preserve">
     <value>Remove</value>
   </data>
+  <data name="FeaturedProducts" xml:space="preserve">
+    <value>Featured products</value>
+  </data>
 </root>

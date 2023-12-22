@@ -309,4 +309,7 @@
   <data name="Remove" xml:space="preserve">
     <value>Törlés</value>
   </data>
+  <data name="FeaturedProducts" xml:space="preserve">
+    <value>Kiemelt termékeink</value>
+  </data>
 </root>

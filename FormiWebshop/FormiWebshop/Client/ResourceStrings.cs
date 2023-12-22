@@ -65,6 +65,7 @@
         Featured,
         DeleteProduct,
         Images,
-        Remove
+        Remove,
+        FeaturedProducts
     }
 }

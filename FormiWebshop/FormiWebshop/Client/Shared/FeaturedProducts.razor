@@ -1,7 +1,8 @@
 ﻿@inject IProductService ProductService
+@inject IStringLocalizer<App> Localizer
 @implements IDisposable
 
-<center><h2>Top Products of Today</h2></center>
+<center><h2>@Localizer[nameof(ResourceStrings.FeaturedProducts)]</h2></center>
 @if (ProductService.Products == null || ProductService.Products.Count == 0)
 {
     <span>@ProductService.Message</span>
