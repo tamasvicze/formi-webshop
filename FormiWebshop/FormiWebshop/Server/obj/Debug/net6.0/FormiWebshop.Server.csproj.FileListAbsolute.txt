@@ -64,6 +64,7 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\MudBlazor.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\Stripe.net.dll
@@ -124,4 +125,3 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.pdb
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.genruntimeconfig.cache
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\ref\FormiWebshop.Server.dll
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\bin\Debug\net6.0\MudBlazor.dll

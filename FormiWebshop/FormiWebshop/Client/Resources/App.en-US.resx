@@ -312,4 +312,7 @@
   <data name="FeaturedProducts" xml:space="preserve">
     <value>Featured products</value>
   </data>
+  <data name="Currency" xml:space="preserve">
+    <value>HUF</value>
+  </data>
 </root>

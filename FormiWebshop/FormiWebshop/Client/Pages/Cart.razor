@@ -19,7 +19,14 @@ else
         {
             <div class="container">
                 <div class="image-wrapper">
-                    <img src="@product.ImageUrl" class="image" alt="Card product image" />
+                    @if (!string.IsNullOrEmpty(product.ImageUrl))
+                    {
+                        <img src="@product.ImageUrl" class="image" alt="Card product image" />
+                    }
+                    else if (product.Images.Count > 0)
+                    {
+                        <img src="@product.Images[0].Data" />
+                    }
                 </div>
                 <div class="name">
                     <h5><a href="/product/@product.ProductId">@product.Title</a></h5>
@@ -33,11 +40,11 @@ else
                     </button>
                 </div>
                 @* TODO Align total cart price under item prices*@
-                <div class="cart-product-price">$@(product.Price * product.Quantity)</div>
+                <div class="cart-product-price">@(product.Price * product.Quantity) @Localizer[nameof(ResourceStrings.Currency)]</div>
             </div>
         }
         <div class="cart-product-price">
-            Total (@cartProducts.Count): $@cartProducts.Sum(product => @product.Price * product.Quantity)
+            Total (@cartProducts.Sum(product => product.Quantity)): @cartProducts.Sum(product => product.Price * product.Quantity) @Localizer[nameof(ResourceStrings.Currency)]
         </div>
     </div>
     @if (isAuthenticated)

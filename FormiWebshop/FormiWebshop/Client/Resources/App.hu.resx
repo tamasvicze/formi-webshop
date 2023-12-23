@@ -312,4 +312,7 @@
   <data name="FeaturedProducts" xml:space="preserve">
     <value>Kiemelt termékeink</value>
   </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Ft</value>
+  </data>
 </root>

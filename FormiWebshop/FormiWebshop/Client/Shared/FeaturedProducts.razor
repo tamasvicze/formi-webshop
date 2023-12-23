@@ -31,7 +31,7 @@ else
                     @if (product.Variants != null && product.Variants.Count > 0)
                     {
                         <h5 class="price">
-                            $@product.Variants[0].Price
+                            @product.Variants[0].Price @Localizer[nameof(ResourceStrings.Currency)]
                         </h5>
                     }
                 </div>

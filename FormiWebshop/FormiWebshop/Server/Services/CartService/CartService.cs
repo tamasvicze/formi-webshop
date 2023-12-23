@@ -24,6 +24,7 @@ namespace FormiWebshop.Server.Services.CartService
             {
                 var product = await _context.Products
                     .Where(p => p.Id == item.ProductId)
+                    .Include(p => p.Images)
                     .FirstOrDefaultAsync();
 
                 if (product == null)
@@ -42,11 +43,19 @@ namespace FormiWebshop.Server.Services.CartService
                     continue;
                 }
 
+                var url = product.ImageUrl;
+
+                if (string.IsNullOrEmpty(url))
+
+                {
+                    url = product.Images[0].Data;
+                }
+
                 var cartProduct = new CartProductResponse
                 {
                     ProductId = product.Id,
                     Title = product.Title,
-                    ImageUrl = product.ImageUrl,
+                    ImageUrl = url,
                     Price = productVariant.Price,
                     ProductType = productVariant.ProductType.Name,
                     ProductTypeId = productVariant.ProductTypeId,

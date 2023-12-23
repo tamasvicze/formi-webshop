@@ -91,6 +91,7 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\mscorlib.dll
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.Bson.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
@@ -282,6 +283,7 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Quic.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.25.dpunj1rz9c.js.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll.gz
@@ -319,7 +321,6 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Private.Xml.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\hu\FormiWebshop.Client.resources.dll.gz
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Resources.Writer.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Xml.dll.gz
@@ -332,6 +333,7 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.WebEncoders.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Numerics.Vectors.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Channels.dll.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll.gz
@@ -365,6 +367,7 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Private.Xml.Linq.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Hosting.Abstractions.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Caching.Abstractions.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Mvc.DataAnnotations.dll.gz
@@ -421,7 +424,6 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Handles.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.NetworkInformation.dll.gz
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
@@ -434,8 +436,7 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\en-US\FormiWebshop.Client.resources.dll.gz
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
@@ -467,6 +468,7 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.Policy.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Razor.Runtime.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authentication.Core.dll.gz
@@ -474,12 +476,12 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.JsonPatch.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Net.Http.Headers.dll.gz
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Requests.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.DataProtection.Abstractions.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.DotNet.PlatformAbstractions.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Transactions.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
@@ -487,7 +489,6 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebClient.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Caching.Memory.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
@@ -510,6 +511,7 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
@@ -592,6 +594,7 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\Microsoft.JSInterop.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\MudBlazor.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\System.IO.Pipelines.dll
@@ -788,8 +791,12 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\aiC2SFsd.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\2zYDLiWf.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\ToeKuszv.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\dMXMWv+L.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\taK2KHJX.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\VEVuRMp+.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\+ZLQNdQv.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\zfk3WhWg.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\I1UQ8iVu.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\EyUkbtDw.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\8kofDaHs.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\hdSJ5UIH.gz
@@ -804,6 +811,7 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\yMY0yagc.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\U1gJrKML.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\P8tt0+qc.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\4wWekVx+.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\H6DkOuPF.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\rGD5xjRF.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\ieuqD9ld.gz
@@ -848,8 +856,10 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\9KBaoeJA.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\bEh2LnBr.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\dkwwl0lK.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\tKL9X4Qz.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\6GZlECwl.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\UES4HDw4.gz
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\QikaE9nr.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\+jBOKyz4.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\7hzdxz1p.gz
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\V0XZMAuD.gz
@@ -1068,13 +1078,3 @@ D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\refint\FormiWebshop.Client.dll
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\FormiWebshop.Client.pdb
 D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\ref\FormiWebshop.Client.dll
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll.gz
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\bin\Debug\net6.0\MudBlazor.dll
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\dMXMWv+L.gz
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\VEVuRMp+.gz
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\zfk3WhWg.gz
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\I1UQ8iVu.gz
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\4wWekVx+.gz
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\tKL9X4Qz.gz
-D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Client\obj\Debug\net6.0\build-gz\QikaE9nr.gz

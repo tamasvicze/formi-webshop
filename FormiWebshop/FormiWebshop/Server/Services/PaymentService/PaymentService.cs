@@ -29,7 +29,7 @@ namespace FormiWebshop.Server.Services.PaymentService
                 PriceData = new SessionLineItemPriceDataOptions
                 {
                     UnitAmountDecimal = product.Price * 100,
-                    Currency = "usd",
+                    Currency = "huf",
                     ProductData = new SessionLineItemPriceDataProductDataOptions
                     {
                         Name = product.Title,

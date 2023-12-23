@@ -66,6 +66,7 @@
         DeleteProduct,
         Images,
         Remove,
-        FeaturedProducts
+        FeaturedProducts,
+        Currency
     }
 }
