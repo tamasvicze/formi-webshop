@@ -2,6 +2,7 @@
 @using System.Runtime.CompilerServices
 @inject IProductService ProductService
 @inject ICartService CartService
+@inject IStringLocalizer<App> Localizer
 
 @if (product == null)
 {
@@ -43,14 +44,14 @@ else
                 @if (GetSelectedVariant().OriginalPrice > GetSelectedVariant().Price)
                 {
                     <h6 class="text-muted original-price">
-                        $@GetSelectedVariant().OriginalPrice
+                        @GetSelectedVariant().OriginalPrice @Localizer[nameof(ResourceStrings.Currency)]
                     </h6>
                 }
                 <h4 class="price">
-                    $@GetSelectedVariant().Price
+                    @GetSelectedVariant().Price @Localizer[nameof(ResourceStrings.Currency)]
                 </h4>
             }
-            <button class="btn btn-primary" @onclick="AddToCart">
+            <button type="button" class="btn btn-primary" @onclick="AddToCart">
                 <i class="oi oi-cart"></i>&nbsp;&nbsp;&nbsp;Add to Cart
             </button>
         </div>

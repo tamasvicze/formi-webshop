@@ -7,6 +7,7 @@
 <div class="dropdown">
     <button @onclick="ToggleUserMenu"
             @onfocusout="HideUserMenu"
+            type="button"
             class="btn btn-secondary dropdown-toggle user-button">
         <i class="oi oi-person"></i>
     </button>
@@ -17,7 +18,7 @@
                 <a href="orders" class="dropdown-item">@Localizer[nameof(ResourceStrings.Orders)]</a>
                 <hr />
                 <AdminMenu/>
-                <button class="dropdown-item" @onclick="Logout">@Localizer[nameof(ResourceStrings.Logout)]</button>
+                <button type="button" class="dropdown-item" @onclick="Logout">@Localizer[nameof(ResourceStrings.Logout)]</button>
             </Authorized>
             <NotAuthorized>
                 <a href="login?returnUrl=@NavigationManager.ToBaseRelativePath(NavigationManager.Uri)" class="dropdown-item">@Localizer[nameof(ResourceStrings.Login)]</a>

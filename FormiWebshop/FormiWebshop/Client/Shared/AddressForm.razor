@@ -5,7 +5,7 @@
 {
     <span>
         @Localizer[nameof(ResourceStrings.AddressNotSpecifiedYet)]
-        <button class="btn" @onclick="InitAddress">@Localizer[nameof(ResourceStrings.AddAnAddress)]</button>
+        <button type="button" class="btn" @onclick="InitAddress">@Localizer[nameof(ResourceStrings.AddAnAddress)]</button>
     </span>
 }
 else if (!editAddress)
@@ -16,7 +16,7 @@ else if (!editAddress)
         <span>@address.Street, @address.Zip, @address.State</span><br />
         <span>@address.Country</span><br />
     </p>
-    <button class="btn btn-primary" @onclick="EditAddress">@Localizer[nameof(ResourceStrings.Edit)]</button>
+    <button type="button" class="btn btn-primary" @onclick="EditAddress">@Localizer[nameof(ResourceStrings.Edit)]</button>
 }
 else
 {

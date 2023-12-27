@@ -1,4 +1,5 @@
 ﻿@inject IProductService ProductService
+@inject IStringLocalizer<App> Localizer
 @implements IDisposable
 
 @if (ProductService.Products == null || ProductService.Products.Count == 0)
@@ -68,10 +69,10 @@ else
         }
         else if (variants.Count == 1)
         {
-            return $"${variants[0].Price}";
+            return $"{variants[0].Price} {Localizer[nameof(ResourceStrings.Currency)]}";
         }
 
         decimal minPrice = variants.Min(v => v.Price);
-        return $"Starting at {minPrice} HUF";
+        return $"{Localizer[nameof(ResourceStrings.StartingAt)]} {minPrice} {Localizer[nameof(ResourceStrings.Currency)]}";
     }
 }

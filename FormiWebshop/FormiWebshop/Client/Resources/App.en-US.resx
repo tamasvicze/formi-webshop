@@ -315,4 +315,7 @@
   <data name="Currency" xml:space="preserve">
     <value>HUF</value>
   </data>
+  <data name="StartingAt" xml:space="preserve">
+    <value>Starting at</value>
+  </data>
 </root>

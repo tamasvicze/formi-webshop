@@ -35,7 +35,7 @@ else
                            @onchange="@((ChangeEventArgs e) => UpdateQuantity(e, product))"
                            class="form-control input-quantity"
                            min="1" />
-                    <button class="btn-delete" @onclick="@(() => RemoveProductFromCart(product.ProductId, product.ProductTypeId))">
+                    <button type="button" class="btn-delete" @onclick="@(() => RemoveProductFromCart(product.ProductId, product.ProductTypeId))">
                         @Localizer[nameof(ResourceStrings.Delete)]
                     </button>
                 </div>
@@ -54,7 +54,7 @@ else
             <AddressForm/>
         </div>
     }
-    <button @onclick="PlaceOrder" class="btn alert-success float-end mt-1">@Localizer[nameof(ResourceStrings.Checkout)]</button>
+    <button @onclick="PlaceOrder" type="button" class="btn alert-success float-end mt-1">@Localizer[nameof(ResourceStrings.Checkout)]</button>
 
 }
 

@@ -67,6 +67,7 @@
         Images,
         Remove,
         FeaturedProducts,
-        Currency
+        Currency,
+        StartingAt
     }
 }

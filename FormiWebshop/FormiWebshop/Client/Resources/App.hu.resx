@@ -315,4 +315,7 @@
   <data name="Currency" xml:space="preserve">
     <value>Ft</value>
   </data>
+  <data name="StartingAt" xml:space="preserve">
+    <value>Kezdő ár</value>
+  </data>
 </root>
