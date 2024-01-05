@@ -44,7 +44,7 @@ else
             </div>
         }
         <div class="cart-product-price">
-            Total (@cartProducts.Sum(product => product.Quantity)): @cartProducts.Sum(product => product.Price * product.Quantity) @Localizer[nameof(ResourceStrings.Currency)]
+            @Localizer[nameof(ResourceStrings.Total)] (@cartProducts.Sum(product => product.Quantity)): @cartProducts.Sum(product => product.Price * product.Quantity) @Localizer[nameof(ResourceStrings.Currency)]
         </div>
     </div>
     @if (isAuthenticated)

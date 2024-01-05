@@ -68,6 +68,7 @@
         Remove,
         FeaturedProducts,
         Currency,
-        StartingAt
+        StartingAt,
+        Total
     }
 }

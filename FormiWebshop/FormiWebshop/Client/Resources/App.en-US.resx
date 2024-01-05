@@ -318,4 +318,7 @@
   <data name="StartingAt" xml:space="preserve">
     <value>Starting at</value>
   </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
 </root>

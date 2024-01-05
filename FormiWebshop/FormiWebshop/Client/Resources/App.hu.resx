@@ -318,4 +318,7 @@
   <data name="StartingAt" xml:space="preserve">
     <value>Kezdő ár</value>
   </data>
+  <data name="Total" xml:space="preserve">
+    <value>Összesen</value>
+  </data>
 </root>
