@@ -1,17 +1,51 @@
 ﻿@inherits LayoutComponentBase
+@inject ILocalStorageService LocalStorage
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+@inject ICartService CartService
+@inject IStringLocalizer<App> Localizer
 
+@* 
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
     <main>
-        <div class="top-row px-4">
+        <div class="top-row px-2">
+            <HomeButton/>
             <Search/>
+            <UserButton/>
+            <CartCounter/>
+            <CultureSelector />
+        </div>
+        
+        <div class="nav-menu">
+            <ShopNavMenu/>
         </div>
 
-        <article class="content px-4">
+        <article class="content px-2">
             @Body
         </article>
     </main>
-</div>
+</div> *@
+
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" Class="mr-3 px-5"><HomeButton /></MudButton>
+        <Search/>
+        <UserButton/>
+        <CartCounter/>
+        <CultureSelector/>
+    </MudAppBar>
+    <MudMainContent>
+        <MudToolBar Class="pa-4 mud-theme-primary">
+            <ShopNavMenu></ShopNavMenu>
+        </MudToolBar>
+        @Body
+    </MudMainContent>
+</MudLayout>
+
+@code {
+
+}

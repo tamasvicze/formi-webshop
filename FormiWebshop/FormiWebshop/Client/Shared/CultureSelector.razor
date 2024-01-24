@@ -3,7 +3,7 @@
 @inject ILocalStorageService LocalStorage
 @inject IStringLocalizer<App> Localizer
 
-<span>
+<span style="margin: 0 1rem 0 1rem; ">
     @Localizer[nameof(ResourceStrings.Language)]:&nbsp;
     <select @onchange="NewCultureSelectedAsync">
         @foreach (var culture in LocalizerSettings.SupportedCulturesWithName)

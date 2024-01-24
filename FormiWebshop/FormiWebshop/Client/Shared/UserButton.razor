@@ -5,28 +5,28 @@
 @inject IStringLocalizer<App> Localizer
 
 <div class="dropdown">
-    <button @onclick="ToggleUserMenu"
-            @onfocusout="HideUserMenu"
-            type="button"
-            class="btn btn-secondary dropdown-toggle user-button">
-        <i class="oi oi-person"></i>
-    </button>
-    <div class="dropdown-menu dropdown-menu-right @UserMenuCssClass">
+    <MudIconButton Variant="Variant.Text" OnClick="@(() => OpenDrawer(Anchor.Right))"Icon="@Icons.Material.Filled.AccountBox" Color="Color.Inherit" @onfocusout="HideUserMenu"></MudIconButton>
+    <MudDrawer @bind-Open="@open" Anchor="@anchor" Elevation="1" Variant="@DrawerVariant.Temporary">
+    <MudDrawerHeader>
+            <MudText Typo="Typo.h6">@Localizer[nameof(ResourceStrings.FormiWebshop)]</MudText>
+    </MudDrawerHeader>
+    <MudNavMenu>
         <AuthorizeView>
             <Authorized>
-                <a href="profile" class="dropdown-item">@Localizer[nameof(ResourceStrings.Profile)]</a>
-                <a href="orders" class="dropdown-item">@Localizer[nameof(ResourceStrings.Orders)]</a>
-                <hr />
+                <MudNavLink Href="profile">@Localizer[nameof(ResourceStrings.Profile)]</MudNavLink>
+                <MudNavLink Href="orders">@Localizer[nameof(ResourceStrings.Orders)]</MudNavLink>
+                <MudDivider Class="my-2"/>
                 <AdminMenu/>
-                <button type="button" class="dropdown-item" @onclick="Logout">@Localizer[nameof(ResourceStrings.Logout)]</button>
+                <MudButton Variant="Variant.Text" @onclick="Logout">@Localizer[nameof(ResourceStrings.Logout)]</MudButton>
             </Authorized>
             <NotAuthorized>
-                <a href="login?returnUrl=@NavigationManager.ToBaseRelativePath(NavigationManager.Uri)" class="dropdown-item">@Localizer[nameof(ResourceStrings.Login)]</a>
-                <a href="register" class="dropdown-item">@Localizer[nameof(ResourceStrings.Register)]</a>
+                <MudNavLink><a href="login?returnUrl=@NavigationManager.ToBaseRelativePath(NavigationManager.Uri)">@Localizer[nameof(ResourceStrings.Login)]</a></MudNavLink>
+                <MudNavLink Href="register">@Localizer[nameof(ResourceStrings.Register)]</MudNavLink>
             </NotAuthorized>
         </AuthorizeView>
+    </MudNavMenu>
+        </MudDrawer>
     </div>
-</div>
 
 @code {
     private bool showUserMenu = false;
@@ -50,5 +50,14 @@
         await CartService.GetCartItemsCount();
         await AuthenticationStateProvider.GetAuthenticationStateAsync();
         NavigationManager.NavigateTo("");
+    }
+
+    bool open;
+    Anchor anchor;
+
+    void OpenDrawer(Anchor anchor)
+    {
+        open = true;
+        this.anchor = anchor;
     }
 }
