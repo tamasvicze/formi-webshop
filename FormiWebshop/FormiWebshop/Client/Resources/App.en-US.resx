@@ -321,4 +321,22 @@
   <data name="Total" xml:space="preserve">
     <value>Total</value>
   </data>
+  <data name="CreateProduct" xml:space="preserve">
+    <value>Create product</value>
+  </data>
+  <data name="CreateANewProduct" xml:space="preserve">
+    <value>Create a new product</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Thank You</value>
+  </data>
+  <data name="ThankYouForYourPurchase" xml:space="preserve">
+    <value>Thank you for your order! You can check your orders:</value>
+  </data>
+  <data name="Here" xml:space="preserve">
+    <value>Here</value>
+  </data>
+  <data name="UpdateProduct" xml:space="preserve">
+    <value>Update product</value>
+  </data>
 </root>

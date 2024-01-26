@@ -69,6 +69,12 @@
         FeaturedProducts,
         Currency,
         StartingAt,
-        Total
+        Total,
+        CreateProduct,
+        CreateANewProduct,
+        ThankYou,
+        ThankYouForYourPurchase,
+        Here,
+        UpdateProduct
     }
 }

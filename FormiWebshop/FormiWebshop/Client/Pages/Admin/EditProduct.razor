@@ -20,7 +20,7 @@ else
     }
     else if (product.IsNew)
     {
-        <h3>Create a new Product</h3>
+        <h3>@Localizer[nameof(ResourceStrings.CreateANewProduct)]</h3>
     }
 
     <EditForm Model="product" OnValidSubmit="AddOrUpdateProduct">
@@ -153,7 +153,7 @@ else
         if (Id == 0)
         {
             product = new Product { IsNew = true };
-            btnText = "Create Product";
+            btnText = @Localizer[nameof(ResourceStrings.CreateProduct)];
         }
         else
         {
@@ -165,7 +165,7 @@ else
             }
             product = dbProduct;
             product.Editing = true;
-            btnText = "Update Product";
+            btnText = @Localizer[nameof(ResourceStrings.UpdateProduct)];
         }
         loading = false;
     }

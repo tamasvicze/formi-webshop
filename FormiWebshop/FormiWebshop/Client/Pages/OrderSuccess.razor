@@ -1,10 +1,11 @@
 ﻿@page "/order-success"
 @inject ICartService CartService
+@inject IStringLocalizer<App> Localizer
 
 <PageTitle>Thank you!</PageTitle>
 
-<h3>Thank you!</h3>
-<span>Thank you for your order! You can check your orders <a href="orders">here</a>.</span>
+<h3>@Localizer[nameof(ResourceStrings.ThankYou)]!</h3>
+<span>@Localizer[nameof(ResourceStrings.ThankYouForYourPurchase)]<a href="orders">@Localizer[nameof(ResourceStrings.Here)]!</a></span>
 
 @code {
     protected override async Task OnInitializedAsync()

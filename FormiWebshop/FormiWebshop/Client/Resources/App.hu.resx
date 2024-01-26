@@ -321,4 +321,22 @@
   <data name="Total" xml:space="preserve">
     <value>Összesen</value>
   </data>
+  <data name="CreateProduct" xml:space="preserve">
+    <value>Termék létrehozása</value>
+  </data>
+  <data name="CreateANewProduct" xml:space="preserve">
+    <value>Új termék létrehozása</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Köszönjük</value>
+  </data>
+  <data name="ThankYouForYourPurchase" xml:space="preserve">
+    <value>Köszönjük a rendelésed! Megrendeléseidet ellenőrizheted:</value>
+  </data>
+  <data name="Here" xml:space="preserve">
+    <value>Itt</value>
+  </data>
+  <data name="UpdateProduct" xml:space="preserve">
+    <value>Termék frissítése</value>
+  </data>
 </root>
