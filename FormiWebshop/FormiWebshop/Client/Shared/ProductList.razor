@@ -2,51 +2,55 @@
 @inject IStringLocalizer<App> Localizer
 @implements IDisposable
 
-@if (ProductService.Products == null || ProductService.Products.Count == 0)
-{
-    <span>@ProductService.Message</span>
-}
-else
-{
-    <ul class="list-unstyled">
-        @foreach (var product in ProductService.Products)
-        {
-            <li class="media my-3">
-                <div class="media-img-wrapper mr-2">
-                    <a href="/product/@product.Id">
-                        <a href="product/@product.Id">
-                            @if (!string.IsNullOrEmpty(product.ImageUrl))
-                            {
-                                <img class="media-img" src="@product.ImageUrl" alt="@product.Title" />
-                            }
-                            else if (product.Images.Count > 0)
-                            {
-                                <img class="media-img" src="@product.Images[0].Data" alt="@product.Title" />
-
-                            }
-                        </a>
-                    </a>
-                </div>
-                <div class="media-body">
-                    <a href="/product/@product.Id">
-                        <h4 class="mb-0">@product.Title</h4>
-                    </a>
-                    <p>@product.Description</p>
-                    <h5 class="price">
-                        @GetPriceText(product)
-                    </h5>
-                </div>
-            </li>
-        }
-    </ul>
-    for (var i = 1; i <= ProductService.PageCount; i++)
+<MudGrid>
+    @if (ProductService.Products == null || ProductService.Products.Count == 0)
     {
-        <a class="btn
-           @(i == ProductService.CurrentPage ? "btn-info" : "btn-outline-info")
-           page-selection" 
-           href="/search/@ProductService.LastSearchText/@i">@i</a>
+        <MudText Class="d-flex align-center justify-center mud-width-full" Typo="Typo.h6">@ProductService.Message</MudText>
     }
-}
+    else
+    {
+        <MudItem xs="12">
+            <MudList Class="d-flex align-center justify-center mud-width-full">
+                @foreach (var product in ProductService.Products)
+                {
+                    <MudListItem>
+                        <MudContainer MaxWidth="MaxWidth.Small">
+                            <MudLink Href=@($"product/{product.Id}")>
+                                <MudLink Href=@($"product/{product.Id}")>
+                                    @if (!string.IsNullOrEmpty(product.ImageUrl))
+                                    {
+                                        <img class="media-img" src="@product.ImageUrl" alt="@product.Title" />
+                                        @* <MudImage Src="@product.ImageUrl" Alt="@product.Title"></MudImage> *@
+                                    }
+                                    else if (product.Images.Count > 0)
+                                    {
+                                        <img class="media-img" src="@product.Images[0].Data" alt="@product.Title" />
+                                       @*  <MudImage Src="@product.Images[0].Data" Alt="@product.Title"></MudImage> *@
+                                    }
+                                </MudLink>
+                            </MudLink>
+                        </MudContainer>
+                        <MudContainer MaxWidth="MaxWidth.Small">
+                            <MudLink Href=@($"product/{product.Id}")>
+                                <MudText Typo="Typo.h5">@product.Title</MudText>
+                            </MudLink>
+                            <MudText Typo="Typo.h6">@product.Description</MudText>
+                            <MudText Typo="Typo.h6" Class="green-text text-accent-4">@GetPriceText(product)</MudText>
+                        </MudContainer>
+                    </MudListItem>
+                }
+            </MudList>
+        </MudItem>
+
+        for (var i = 1; i <= ProductService.PageCount; i++)
+        {
+            <a class="btn
+           @(i == ProductService.CurrentPage ? "btn-info" : "btn-outline-info")
+           page-selection"
+               href="/search/@ProductService.LastSearchText/@i">@i</a>
+        }
+    }
+</MudGrid>
 
 @code {
     protected override void OnInitialized()

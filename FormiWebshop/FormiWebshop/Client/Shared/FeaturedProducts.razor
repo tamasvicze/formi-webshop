@@ -2,45 +2,48 @@
 @inject IStringLocalizer<App> Localizer
 @implements IDisposable
 
-<center><h2>@Localizer[nameof(ResourceStrings.FeaturedProducts)]</h2></center>
-@if (ProductService.Products == null || ProductService.Products.Count == 0)
-{
-    <span>@ProductService.Message</span>
-}
-else
-{
-    <div class="container">
+<MudGrid Spacing="@spacing" Justify="Justify.Center">
+    <MudText Typo="Typo.h3" Class="d-flex align-center justify-center mud-width-full py-3">@Localizer[nameof(ResourceStrings.FeaturedProducts)]</MudText>
+        @if (ProductService.Products == null || ProductService.Products.Count == 0)
+    {
+        <span>@ProductService.Message</span>
+    }
+    else
+    {
         @foreach (var product in ProductService.Products)
         {
             @if (product.Featured)
             {
-                <div class="featured-product">
-                    <div>
-                        <a href="product/@product.Id">
+                <MudItem xs="2">
+                    <MudContainer>
+                        <MudLink Href=@($"product/{product.Id}") Class="d-flex align-center justify-center mud-width-full mb-2">
                             @if (!string.IsNullOrEmpty(product.ImageUrl))
                             {
                                 <img src="@product.ImageUrl" />
+                                @* <MudImage Src="@product.ImageUrl" Alt="Featured product image" Elevation="25" Height="200" Width="200" Fluid="true"/> *@
                             }
                             else if (product.Images.Count > 0)
                             {
                                 <img src="@product.Images[0].Data" />
+                                @* <MudImage Src="@product.Images[0].Data" Alt="Featured product image" Elevation="25" Height="200" Width="200" Fluid="true"/> *@
                             }
-                        </a>
-                    </div>
-                    <h4><a href="product/@product.Id">@product.Title</a></h4>
-                    @if (product.Variants != null && product.Variants.Count > 0)
-                    {
-                        <h5 class="price">
-                            @product.Variants[0].Price @Localizer[nameof(ResourceStrings.Currency)]
-                        </h5>
-                    }
-                </div>
+                        </MudLink>
+                        <MudText Typo="Typo.h5" Class="d-flex align-center justify-center mud-width-full"><a href="product/@product.Id">@product.Title</a></MudText>
+                        @if (product.Variants != null && product.Variants.Count > 0)
+                        {
+                            <MudText Class="green-text text-accent-4 d-flex align-center justify-center mud-width-full" Typo="Typo.h6">@product.Variants[0].Price @Localizer[nameof(ResourceStrings.Currency)]</MudText>
+
+                        }
+                    </MudContainer>
+                </MudItem>
             }
         }
-    </div>
-}
+    }
+</MudGrid>
 
 @code {
+
+    public int spacing { get; set; } = 1;
 
     protected override void OnInitialized()
     {
