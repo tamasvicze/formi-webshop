@@ -397,3 +397,5 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 /FormiWebshop/FormiWebshop/Client/bin/Debug/net6.0/en-US/FormiWebshop.Client.resources.dll
+/running_solution_locally.txt
+/stripe.exe
