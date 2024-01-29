@@ -34,7 +34,7 @@
                             <MudLink Href=@($"product/{product.Id}")>
                                 <MudText Typo="Typo.h5">@product.Title</MudText>
                             </MudLink>
-                            <MudText Typo="Typo.h6">@product.Description</MudText>
+                            <MudText Typo="Typo.h6">@* @product.Description *@</MudText>
                             <MudText Typo="Typo.h6" Class="green-text text-accent-4">@GetPriceText(product)</MudText>
                         </MudContainer>
                     </MudListItem>

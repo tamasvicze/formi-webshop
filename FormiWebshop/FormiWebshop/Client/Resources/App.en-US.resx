@@ -339,4 +339,7 @@
   <data name="UpdateProduct" xml:space="preserve">
     <value>Update product</value>
   </data>
+  <data name="AddToCart" xml:space="preserve">
+    <value>Add to cart</value>
+  </data>
 </root>

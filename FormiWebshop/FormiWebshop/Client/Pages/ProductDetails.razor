@@ -51,9 +51,9 @@ else
                     @GetSelectedVariant().Price @Localizer[nameof(ResourceStrings.Currency)]
                 </h4>
             }
-            <button type="button" class="btn btn-primary" @onclick="AddToCart">
-                <i class="oi oi-cart"></i>&nbsp;&nbsp;&nbsp;Add to Cart
-            </button>
+            <MudButton Color="Color.Primary" OnClick="AddToCart">
+                <MudIcon Icon="@Icons.Material.Filled.AddShoppingCart" Title="AddShoppingCart" />@Localizer[nameof(ResourceStrings.AddToCart)]
+            </MudButton>
         </div>
     </div>
 }

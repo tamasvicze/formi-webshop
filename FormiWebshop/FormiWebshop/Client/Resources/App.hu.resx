@@ -339,4 +339,7 @@
   <data name="UpdateProduct" xml:space="preserve">
     <value>Termék frissítése</value>
   </data>
+  <data name="AddToCart" xml:space="preserve">
+    <value>Kosárba teszem</value>
+  </data>
 </root>

@@ -2,7 +2,7 @@
 @inject ICartService CartService
 @inject IStringLocalizer<App> Localizer
 
-<PageTitle>Thank you!</PageTitle>
+<PageTitle>@Localizer[nameof(ResourceStrings.ThankYou)]!</PageTitle>
 
 <h3>@Localizer[nameof(ResourceStrings.ThankYou)]!</h3>
 <span>@Localizer[nameof(ResourceStrings.ThankYouForYourPurchase)]<a href="orders">@Localizer[nameof(ResourceStrings.Here)]!</a></span>
