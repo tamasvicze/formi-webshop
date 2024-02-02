@@ -10,22 +10,23 @@
 }
 else
 {
-    <div class="media">
-        <div class="media-img-wrapper mr-2">
+
+    <MudGrid Spacing="@spacing" Justify="Justify.Center">
+        <MudItem xs="6">
             @if (!string.IsNullOrEmpty(product.ImageUrl))
             {
-                <img class="media-img" src="@product.ImageUrl" alt="@product.Title"/>
+                <MudImage Class="d-flex align-center justify-center mud-width-full py-8" src="@product.ImageUrl" alt="@product.Title" />
             }
             else
             {
-                <MudCarousel Class="mud-width-full" ItemsSource="product.Images" Style="height: 200px;" AutoCycle="@autocycle">
+                <MudCarousel Class="d-flex align-center justify-center mud-width-full py-8" ItemsSource="product.Images" Style="height: 200px;" AutoCycle="@autocycle">
                     <ItemTemplate>
                         <MudImage Src="@context.Data"></MudImage>
                     </ItemTemplate>
                 </MudCarousel>
             }
-        </div>
-        <div class="media-body">
+        </MudItem>
+        <MudItem xs="6">
             <h2 class="mb-0">@product.Title</h2>
             <p>@product.Description</p>
             @if (product.Variants != null && product.Variants.Count > 1)
@@ -54,8 +55,8 @@ else
             <MudButton Color="Color.Primary" OnClick="AddToCart">
                 <MudIcon Icon="@Icons.Material.Filled.AddShoppingCart" Title="AddShoppingCart" />@Localizer[nameof(ResourceStrings.AddToCart)]
             </MudButton>
-        </div>
-    </div>
+        </MudItem>
+    </MudGrid>
 }
 
 @code {
@@ -103,4 +104,6 @@ else
 
         await CartService.AddtoCart(cartItem);
     }
+
+    public int spacing { get; set; } = 2;
 }
