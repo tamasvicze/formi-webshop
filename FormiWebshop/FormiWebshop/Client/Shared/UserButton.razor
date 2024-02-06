@@ -17,9 +17,10 @@
                 <MudNavLink Href="orders">@Localizer[nameof(ResourceStrings.Orders)]</MudNavLink>
                 <MudDivider Class="my-2"/>
                 <AdminMenu/>
-                <MudButton Variant="Variant.Text" @onclick="Logout">@Localizer[nameof(ResourceStrings.Logout)]</MudButton>
+                <MudNavLink Href=""><MudButton Variant="Variant.Text" @onclick="Logout">@Localizer[nameof(ResourceStrings.Logout)]</MudButton></MudNavLink>
             </Authorized>
             <NotAuthorized>
+                @* Fix double click needed on login button for login page *@
                 <MudNavLink><a href="login?returnUrl=@NavigationManager.ToBaseRelativePath(NavigationManager.Uri)">@Localizer[nameof(ResourceStrings.Login)]</a></MudNavLink>
                 <MudNavLink Href="register">@Localizer[nameof(ResourceStrings.Register)]</MudNavLink>
             </NotAuthorized>
