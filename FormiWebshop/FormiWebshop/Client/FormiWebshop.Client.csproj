@@ -15,6 +15,9 @@
     <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
     <Compile Include="obj\Debug\net6.0\FormiWebshop.Client.AssemblyInfo.cs" />
     <Compile Include="obj\Debug\net6.0\FormiWebshop.Client.GlobalUsings.g.cs" />
+    <Compile Include="obj\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\net6.0\FormiWebshop.Client.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\net6.0\FormiWebshop.Client.GlobalUsings.g.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ResourceStrings.cs" />
     <Compile Include="Services\AddressService\AddressService.cs" />
@@ -42,6 +45,8 @@
     <Content Include="obj\Debug\net6.0\FormiWebshop.Client.sourcelink.json" />
     <Content Include="obj\FormiWebshop.Client.csproj.nuget.dgspec.json" />
     <Content Include="obj\project.assets.json" />
+    <Content Include="obj\Release\net6.0\FormiWebshop.Client.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\net6.0\FormiWebshop.Client.sourcelink.json" />
   </ItemGroup>
 
   <ItemGroup>
@@ -1426,6 +1431,15 @@
     <None Include="obj\FormiWebshop.Client.csproj.nuget.g.props" />
     <None Include="obj\FormiWebshop.Client.csproj.nuget.g.targets" />
     <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\net6.0\FormiWebshop.Client.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net6.0\FormiWebshop.Client.assets.cache" />
+    <None Include="obj\Release\net6.0\FormiWebshop.Client.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\net6.0\FormiWebshop.Client.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\net6.0\FormiWebshop.Client.csproj.GenerateResource.cache" />
+    <None Include="obj\Release\net6.0\FormiWebshop.Client.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Release\net6.0\FormiWebshop.Client.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Release\net6.0\FormiWebshop.Client.Resources.App.en-US.resources" />
+    <None Include="obj\Release\net6.0\FormiWebshop.Client.Resources.App.hu.resources" />
   </ItemGroup>
 
   <ItemGroup>
@@ -1448,6 +1462,9 @@
     <Folder Include="obj\Debug\net6.0\refint\" />
     <Folder Include="obj\Debug\net6.0\ref\" />
     <Folder Include="obj\Debug\net6.0\staticwebassets\" />
+    <Folder Include="obj\Release\net6.0\refint\" />
+    <Folder Include="obj\Release\net6.0\ref\" />
+    <Folder Include="obj\Release\net6.0\staticwebassets\" />
   </ItemGroup>
 
 </Project>
