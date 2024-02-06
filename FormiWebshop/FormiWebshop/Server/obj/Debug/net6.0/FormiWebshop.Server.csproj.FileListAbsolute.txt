@@ -1,0 +1,7 @@
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.csproj.AssemblyReference.cache
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.csproj.CoreCompileInputs.cache
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.MvcApplicationPartsAssemblyInfo.cache
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.RazorAssemblyInfo.cache
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.RazorAssemblyInfo.cs
+D:\Repos\Hobby\EcommerceBlazorDotnet6\FormiWebshop\FormiWebshop\Server\obj\Debug\net6.0\FormiWebshop.Server.sourcelink.json
