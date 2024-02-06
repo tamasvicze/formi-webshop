@@ -8,6 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="bin\**" />
+    <Content Remove="obj\**" />
+    <EmbeddedResource Remove="bin\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="bin\**" />
+    <None Remove="obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Include="Controllers\AddressController.cs" />
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\CartController.cs" />
@@ -49,10 +58,6 @@
     <Compile Include="Migrations\20231227192812_ProductTypeDeletedAddedChangedData.cs" />
     <Compile Include="Migrations\20231227192812_ProductTypeDeletedAddedChangedData.Designer.cs" />
     <Compile Include="Migrations\DataContextModelSnapshot.cs" />
-    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
-    <Compile Include="obj\Debug\net6.0\FormiWebshop.Server.AssemblyInfo.cs" />
-    <Compile Include="obj\Debug\net6.0\FormiWebshop.Server.GlobalUsings.g.cs" />
-    <Compile Include="obj\Debug\net6.0\FormiWebshop.Server.RazorAssemblyInfo.cs" />
     <Compile Include="Pages\Error.cshtml.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Services\AddressService\AddressService.cs" />
@@ -75,18 +80,6 @@
 
   <ItemGroup>
     <Content Include=".config\dotnet-tools.json" />
-    <Content Include="bin\Debug\net8.0\appsettings.Development.json" />
-    <Content Include="bin\Debug\net8.0\appsettings.json" />
-    <Content Include="bin\Debug\net8.0\FormiWebshop.Server.deps.json" />
-    <Content Include="bin\Debug\net8.0\FormiWebshop.Server.runtimeconfig.json" />
-    <Content Include="bin\Release\net8.0\appsettings.Development.json" />
-    <Content Include="bin\Release\net8.0\appsettings.json" />
-    <Content Include="bin\Release\net8.0\FormiWebshop.Server.deps.json" />
-    <Content Include="bin\Release\net8.0\FormiWebshop.Server.runtimeconfig.json" />
-    <Content Include="obj\Debug\net6.0\FormiWebshop.Server.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\net6.0\FormiWebshop.Server.sourcelink.json" />
-    <Content Include="obj\FormiWebshop.Server.csproj.nuget.dgspec.json" />
-    <Content Include="obj\project.assets.json" />
   </ItemGroup>
 
   <ItemGroup>
@@ -116,121 +109,6 @@
 
   <ItemGroup>
     <Folder Include=".github\workflows\" />
-    <Folder Include="bin\Debug\net6.0\" />
-    <Folder Include="bin\Release\net6.0\" />
-    <Folder Include="obj\Debug\net6.0\refint\" />
-    <Folder Include="obj\Debug\net6.0\ref\" />
-    <Folder Include="obj\Debug\net6.0\staticwebassets\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="bin\Debug\net8.0\Azure.Core.dll" />
-    <None Include="bin\Debug\net8.0\Azure.Identity.dll" />
-    <None Include="bin\Debug\net8.0\FormiWebshop.Server.dll" />
-    <None Include="bin\Debug\net8.0\FormiWebshop.Server.exe" />
-    <None Include="bin\Debug\net8.0\FormiWebshop.Server.pdb" />
-    <None Include="bin\Debug\net8.0\FormiWebshop.Shared.dll" />
-    <None Include="bin\Debug\net8.0\FormiWebshop.Shared.pdb" />
-    <None Include="bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.Data.SqlClient.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.Exchange.WebServices.Auth.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.Exchange.WebServices.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.Identity.Client.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.SqlServer.Server.dll" />
-    <None Include="bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll" />
-    <None Include="bin\Debug\net8.0\Newtonsoft.Json.dll" />
-    <None Include="bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll" />
-    <None Include="bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll" />
-    <None Include="bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll" />
-    <None Include="bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll" />
-    <None Include="bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll" />
-    <None Include="bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll" />
-    <None Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll" />
-    <None Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll" />
-    <None Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll" />
-    <None Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll" />
-    <None Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll" />
-    <None Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll" />
-    <None Include="bin\Debug\net8.0\Stripe.net.dll" />
-    <None Include="bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll" />
-    <None Include="bin\Debug\net8.0\System.Drawing.Common.dll" />
-    <None Include="bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll" />
-    <None Include="bin\Debug\net8.0\System.Memory.Data.dll" />
-    <None Include="bin\Debug\net8.0\System.Runtime.Caching.dll" />
-    <None Include="bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll" />
-    <None Include="bin\Debug\net8.0\System.Security.Permissions.dll" />
-    <None Include="bin\Debug\net8.0\System.Windows.Extensions.dll" />
-    <None Include="bin\Release\net8.0\Azure.Core.dll" />
-    <None Include="bin\Release\net8.0\Azure.Identity.dll" />
-    <None Include="bin\Release\net8.0\FormiWebshop.Server.dll" />
-    <None Include="bin\Release\net8.0\FormiWebshop.Server.exe" />
-    <None Include="bin\Release\net8.0\FormiWebshop.Server.pdb" />
-    <None Include="bin\Release\net8.0\FormiWebshop.Shared.dll" />
-    <None Include="bin\Release\net8.0\FormiWebshop.Shared.pdb" />
-    <None Include="bin\Release\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.Bcl.AsyncInterfaces.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.Data.SqlClient.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.EntityFrameworkCore.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.EntityFrameworkCore.Relational.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.Exchange.WebServices.Auth.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.Exchange.WebServices.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.Identity.Client.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.IdentityModel.Abstractions.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.IdentityModel.Logging.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.IdentityModel.Protocols.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.IdentityModel.Tokens.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.SqlServer.Server.dll" />
-    <None Include="bin\Release\net8.0\Microsoft.Win32.SystemEvents.dll" />
-    <None Include="bin\Release\net8.0\Newtonsoft.Json.dll" />
-    <None Include="bin\Release\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll" />
-    <None Include="bin\Release\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll" />
-    <None Include="bin\Release\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll" />
-    <None Include="bin\Release\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll" />
-    <None Include="bin\Release\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll" />
-    <None Include="bin\Release\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll" />
-    <None Include="bin\Release\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll" />
-    <None Include="bin\Release\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll" />
-    <None Include="bin\Release\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll" />
-    <None Include="bin\Release\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll" />
-    <None Include="bin\Release\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll" />
-    <None Include="bin\Release\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll" />
-    <None Include="bin\Release\net8.0\Stripe.net.dll" />
-    <None Include="bin\Release\net8.0\System.Configuration.ConfigurationManager.dll" />
-    <None Include="bin\Release\net8.0\System.Drawing.Common.dll" />
-    <None Include="bin\Release\net8.0\System.IdentityModel.Tokens.Jwt.dll" />
-    <None Include="bin\Release\net8.0\System.Memory.Data.dll" />
-    <None Include="bin\Release\net8.0\System.Runtime.Caching.dll" />
-    <None Include="bin\Release\net8.0\System.Security.Cryptography.ProtectedData.dll" />
-    <None Include="bin\Release\net8.0\System.Security.Permissions.dll" />
-    <None Include="bin\Release\net8.0\System.Windows.Extensions.dll" />
-    <None Include="obj\Debug\net6.0\FormiWebshop.Server.AssemblyInfoInputs.cache" />
-    <None Include="obj\Debug\net6.0\FormiWebshop.Server.assets.cache" />
-    <None Include="obj\Debug\net6.0\FormiWebshop.Server.csproj.AssemblyReference.cache" />
-    <None Include="obj\Debug\net6.0\FormiWebshop.Server.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\net6.0\FormiWebshop.Server.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="obj\Debug\net6.0\FormiWebshop.Server.MvcApplicationPartsAssemblyInfo.cache" />
-    <None Include="obj\Debug\net6.0\FormiWebshop.Server.RazorAssemblyInfo.cache" />
-    <None Include="obj\Debug\net6.0\project.razor.vs.bin" />
-    <None Include="obj\FormiWebshop.Server.csproj.nuget.g.props" />
-    <None Include="obj\FormiWebshop.Server.csproj.nuget.g.targets" />
-    <None Include="obj\project.nuget.cache" />
   </ItemGroup>
 
 

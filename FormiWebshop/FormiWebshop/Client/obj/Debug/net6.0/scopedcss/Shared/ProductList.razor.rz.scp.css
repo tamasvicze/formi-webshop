@@ -1,0 +1,32 @@
+.media-img[b-hxf8rxs9qy] {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+}
+
+.media-img:hover[b-hxf8rxs9qy] {
+    transform: scale(1.1);
+}
+
+.media-img-wrapper[b-hxf8rxs9qy] {
+    width: 200px;
+    text-align: center;
+}
+
+.page-selection[b-hxf8rxs9qy] {
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1023.98px) {
+    .media[b-hxf8rxs9qy] {
+        flex-direction: column;
+    }
+
+    .media-img-wrapper[b-hxf8rxs9qy] {
+        width: 100%;
+        height: auto;
+    }
+}
