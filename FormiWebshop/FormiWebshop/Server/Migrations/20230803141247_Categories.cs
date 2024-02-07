@@ -38,9 +38,8 @@ namespace FormiWebshop.Server.Migrations
                 columns: new[] { "Id", "Name", "Url" },
                 values: new object[,]
                 {
-                    { 1, "Books", "books" },
-                    { 2, "Movies", "movies" },
-                    { 3, "Video Games", "video-games" }
+                    { 1, "Pictures", "pictures" },
+                    { 2, "Modeling clay", "modeling-clay" }
                 });
 
             migrationBuilder.UpdateData(

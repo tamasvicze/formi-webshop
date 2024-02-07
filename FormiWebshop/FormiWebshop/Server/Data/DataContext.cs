@@ -67,7 +67,7 @@ namespace FormiWebshop.Server.Data
                     Id = 3,
                     CategoryId = 1,
                     Title = "A szerencse lovai",
-                    Description = "A \"Szerencse lovai\" című kép egy dinamikus és élettel teli alkotás, amely a mozgás, erő és szerencse témáit ötvözi. A kompozíció középpontjában álló lovak, amelyeket gyakran vad, szabad szellemű lényekként ábrázolnak, ezen a képen a szerencse és a sors fordulatos útjait szimbolizálják. ",
+                    Description = "A \"Szerencse lovai\" című kép egy dinamikus és élettel teli alkotás, amely a mozgás, erő és szerencse témáit ötvözi. A kompozíció középpontjában álló lovak, amelyeket gyakran vad, szabad szellemű lényekként ábrázolnak, ezen a képen a szerencse és a sors fordulatos útjait szimbolizálják.",
                     ImageUrl = "https://scontent.fosl3-2.fna.fbcdn.net/v/t1.18169-9/1926668_523142884461532_1016400965_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=4dc865&_nc_ohc=fqFgPIYsG6UAX8qPKJa&_nc_ht=scontent.fosl3-2.fna&oh=00_AfBQwQA9PvCzcpgn3LBeOlzq59Yd4SwUgqUKSa5-BIeZCw&oe=65DB86F7",
                 },
                 new Product
@@ -99,7 +99,7 @@ namespace FormiWebshop.Server.Data
                     Id = 7,
                     CategoryId = 2,
                     Title = "Dobozos gyurma 2. szín",
-                    Description = " Ebben a szettben a fehér mellett a test szín, lila, barna és fekete árnyalatok dominálnak, amelyek tökéletesen alkalmasak emberi alakok és természeti elemek modellezésére. Ez a paletta különösen jól használható a realisztikusabb, részletgazdag alkotásokhoz, amelyek finom árnyalatokkal és átmenetekkel dolgoznak.",
+                    Description = "Ebben a szettben a fehér mellett a test szín, lila, barna és fekete árnyalatok dominálnak, amelyek tökéletesen alkalmasak emberi alakok és természeti elemek modellezésére. Ez a paletta különösen jól használható a realisztikusabb, részletgazdag alkotásokhoz, amelyek finom árnyalatokkal és átmenetekkel dolgoznak.",
                     ImageUrl = "https://scontent.fosl3-1.fna.fbcdn.net/v/t31.18172-8/10001106_523163627792791_943319837_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=4dc865&_nc_ohc=GTfbWV9OrQUAX_csRP3&_nc_ht=scontent.fosl3-1.fna&oh=00_AfAWSDH-exYdoY24LBJ3A6vWwz2KGqzf9vVsIuHQS3MG4Q&oe=65DBADF1",
                 },
                 new Product

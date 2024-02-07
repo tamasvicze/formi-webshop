@@ -60,16 +60,11 @@ namespace FormiWebshop.Server.Migrations
                 columns: new[] { "Id", "Name" },
                 values: new object[,]
                 {
-                    { 1, "Default" },
-                    { 2, "Paperback" },
-                    { 3, "E-Book" },
-                    { 4, "Audiobook" },
-                    { 5, "Stream" },
-                    { 6, "Blu-ray" },
-                    { 7, "VHS" },
-                    { 8, "PC" },
-                    { 9, "PlayStation" },
-                    { 10, "Xbox" }
+                    { 1, "9 x 13 cm" },
+                    { 2, "10 x 15 cm" },
+                    { 3, "30 x 40 cm" },
+                    { 4, "5 x 10 dkg" },
+                    { 5, "5 x 5 dkg" }
                 });
 
             migrationBuilder.InsertData(
@@ -77,23 +72,29 @@ namespace FormiWebshop.Server.Migrations
                 columns: new[] { "ProductId", "ProductTypeId", "OriginalPrice", "Price" },
                 values: new object[,]
                 {
-                    { 1, 2, 19.99m, 9.99m },
-                    { 1, 3, 0m, 7.99m },
-                    { 1, 4, 29.99m, 19.99m },
-                    { 2, 2, 14.99m, 7.99m },
-                    { 3, 2, 0m, 6.99m },
-                    { 4, 5, 0m, 3.99m },
-                    { 4, 6, 0m, 9.99m },
-                    { 4, 7, 0m, 19.99m },
-                    { 5, 5, 0m, 3.99m },
-                    { 6, 5, 0m, 2.99m },
-                    { 7, 8, 29.99m, 19.99m },
-                    { 7, 9, 0m, 69.99m },
-                    { 7, 10, 59.99m, 49.99m },
-                    { 8, 8, 24.99m, 9.99m },
-                    { 9, 8, 0m, 14.99m },
-                    { 10, 1, 299m, 159.99m },
-                    { 11, 1, 399m, 79.99m }
+                    { 1, 1, 900m, 800m },
+                    { 1, 2, 2000m, 1900m },
+                    { 1, 3, 0m, 6000m },
+                    { 2, 1, 900m, 800m },
+                    { 2, 2, 2000m, 1900m },
+                    { 2, 3, 0m, 6000m },
+                    { 3, 1, 900m, 800m },
+                    { 3, 2, 2000m, 1900m },
+                    { 3, 3, 0m, 6000m },
+                    { 4, 1, 900m, 800m },
+                    { 4, 2, 2000m, 1900m },
+                    { 4, 3, 0m, 6000m },
+                    { 5, 1, 900m, 800m },
+                    { 5, 2, 2000m, 1900m },
+                    { 5, 3, 0m, 6000m },
+                    { 6, 4, 0m, 1200m },
+                    { 6, 5, 800m, 700m},
+                    { 7, 4, 0m, 1200m },
+                    { 7, 5, 800m, 700m },
+                    { 8, 4, 0m, 1200m },
+                    { 8, 5, 800m, 700m },
+                    { 9, 4, 0m, 1200m },
+                    { 9, 5, 800m, 700m }
                 });
 
             migrationBuilder.CreateIndex(
