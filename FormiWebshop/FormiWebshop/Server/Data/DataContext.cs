@@ -92,7 +92,7 @@ namespace FormiWebshop.Server.Data
                     CategoryId = 2,
                     Title = "Dobozos gyurma 1. szín",
                     Description = "Ez a szett egy dinamikus és élénk színkombinációt tartalmaz, beleértve a fehér, sárga, piros, kék és zöld árnyalatokat. A színek sokoldalúsága lehetővé teszi a felhasználók számára, hogy szabadon kísérletezzenek és színes alkotásokat hozzanak létre, legyen szó akár tájképekről, állatfigurákról vagy akár absztrakt művekről.",
-                    ImageUrl = "https://scontent.fbud6-4.fna.fbcdn.net/v/t31.18172-8/1966061_523163521126135_466461706_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=4dc865&_nc_ohc=m6U10Lds47AAX826HSM&_nc_ht=scontent.fbud6-4.fna&oh=00_AfBVG0DqcTV2lOFeezlbX_pfKYNuiquFosB8W-RUV1Rk0g&oe=65B425FC",
+                    ImageUrl = "https://scontent.fosl3-1.fna.fbcdn.net/v/t31.18172-8/1966061_523163521126135_466461706_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=4dc865&_nc_ohc=xRoHug-HKyoAX-cRmGw&_nc_ht=scontent.fosl3-1.fna&oh=00_AfAen_VwD2tSXRd7v0hQgWpSKt30Tt30b4Ngl8hss1KUWg&oe=65ECD67C",
                 },
                 new Product
                 {
