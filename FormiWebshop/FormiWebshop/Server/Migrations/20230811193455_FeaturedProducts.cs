@@ -79,20 +79,6 @@ namespace FormiWebshop.Server.Migrations
                 keyValue: 9,
                 column: "Featured",
                 value: true);
-
-            migrationBuilder.UpdateData(
-                table: "Products",
-                keyColumn: "Id",
-                keyValue: 10,
-                column: "Featured",
-                value: false);
-
-            migrationBuilder.UpdateData(
-                table: "Products",
-                keyColumn: "Id",
-                keyValue: 11,
-                column: "Featured",
-                value: false);
         }
 
         /// <inheritdoc />

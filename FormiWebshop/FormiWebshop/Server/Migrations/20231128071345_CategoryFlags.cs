@@ -37,13 +37,6 @@ namespace FormiWebshop.Server.Migrations
                 keyValue: 2,
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
-
-            migrationBuilder.UpdateData(
-                table: "Categories",
-                keyColumn: "Id",
-                keyValue: 3,
-                columns: new[] { "Deleted", "Visible" },
-                values: new object[] { false, true });
         }
 
         /// <inheritdoc />

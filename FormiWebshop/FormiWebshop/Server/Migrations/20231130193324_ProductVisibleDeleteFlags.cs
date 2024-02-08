@@ -36,7 +36,14 @@ namespace FormiWebshop.Server.Migrations
                 table: "Products",
                 type: "bit",
                 nullable: false,
-                defaultValue: false);
+                defaultValue: false); 
+            
+            migrationBuilder.UpdateData(
+                table: "ProductVariants",
+                keyColumns: new[] { "ProductId", "ProductTypeId" },
+                keyValues: new object[] { 1, 1 },
+                columns: new[] { "Deleted", "Visible" },
+                values: new object[] { false, true });
 
             migrationBuilder.UpdateData(
                 table: "ProductVariants",
@@ -55,7 +62,7 @@ namespace FormiWebshop.Server.Migrations
             migrationBuilder.UpdateData(
                 table: "ProductVariants",
                 keyColumns: new[] { "ProductId", "ProductTypeId" },
-                keyValues: new object[] { 1, 4 },
+                keyValues: new object[] { 2, 1 },
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
 
@@ -69,6 +76,20 @@ namespace FormiWebshop.Server.Migrations
             migrationBuilder.UpdateData(
                 table: "ProductVariants",
                 keyColumns: new[] { "ProductId", "ProductTypeId" },
+                keyValues: new object[] { 2, 3 },
+                columns: new[] { "Deleted", "Visible" },
+                values: new object[] { false, true });
+
+            migrationBuilder.UpdateData(
+                table: "ProductVariants",
+                keyColumns: new[] { "ProductId", "ProductTypeId" },
+                keyValues: new object[] { 3, 1 },
+                columns: new[] { "Deleted", "Visible" },
+                values: new object[] { false, true });
+
+            migrationBuilder.UpdateData(
+                table: "ProductVariants",
+                keyColumns: new[] { "ProductId", "ProductTypeId" },
                 keyValues: new object[] { 3, 2 },
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
@@ -76,86 +97,73 @@ namespace FormiWebshop.Server.Migrations
             migrationBuilder.UpdateData(
                 table: "ProductVariants",
                 keyColumns: new[] { "ProductId", "ProductTypeId" },
-                keyValues: new object[] { 4, 5 },
+                keyValues: new object[] { 3, 3 },
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
 
             migrationBuilder.UpdateData(
                 table: "ProductVariants",
                 keyColumns: new[] { "ProductId", "ProductTypeId" },
-                keyValues: new object[] { 4, 6 },
+                keyValues: new object[] { 4, 1 },
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
 
             migrationBuilder.UpdateData(
                 table: "ProductVariants",
                 keyColumns: new[] { "ProductId", "ProductTypeId" },
-                keyValues: new object[] { 4, 7 },
+                keyValues: new object[] { 4, 2 },
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
 
             migrationBuilder.UpdateData(
                 table: "ProductVariants",
                 keyColumns: new[] { "ProductId", "ProductTypeId" },
-                keyValues: new object[] { 5, 5 },
+                keyValues: new object[] { 4, 3 },
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
 
             migrationBuilder.UpdateData(
                 table: "ProductVariants",
                 keyColumns: new[] { "ProductId", "ProductTypeId" },
-                keyValues: new object[] { 6, 5 },
+                keyValues: new object[] { 5, 1 },
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
 
             migrationBuilder.UpdateData(
                 table: "ProductVariants",
                 keyColumns: new[] { "ProductId", "ProductTypeId" },
-                keyValues: new object[] { 7, 8 },
+                keyValues: new object[] { 5, 2 },
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
 
             migrationBuilder.UpdateData(
                 table: "ProductVariants",
                 keyColumns: new[] { "ProductId", "ProductTypeId" },
-                keyValues: new object[] { 7, 9 },
+                keyValues: new object[] { 5, 3 },
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
 
             migrationBuilder.UpdateData(
                 table: "ProductVariants",
                 keyColumns: new[] { "ProductId", "ProductTypeId" },
-                keyValues: new object[] { 7, 10 },
+                keyValues: new object[] { 6, 1 },
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
 
             migrationBuilder.UpdateData(
                 table: "ProductVariants",
                 keyColumns: new[] { "ProductId", "ProductTypeId" },
-                keyValues: new object[] { 8, 8 },
+                keyValues: new object[] { 6, 2 },
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
 
             migrationBuilder.UpdateData(
                 table: "ProductVariants",
                 keyColumns: new[] { "ProductId", "ProductTypeId" },
-                keyValues: new object[] { 9, 8 },
+                keyValues: new object[] { 6, 3 },
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
 
-            migrationBuilder.UpdateData(
-                table: "ProductVariants",
-                keyColumns: new[] { "ProductId", "ProductTypeId" },
-                keyValues: new object[] { 10, 1 },
-                columns: new[] { "Deleted", "Visible" },
-                values: new object[] { false, true });
-
-            migrationBuilder.UpdateData(
-                table: "ProductVariants",
-                keyColumns: new[] { "ProductId", "ProductTypeId" },
-                keyValues: new object[] { 11, 1 },
-                columns: new[] { "Deleted", "Visible" },
-                values: new object[] { false, true });
 
             migrationBuilder.UpdateData(
                 table: "Products",
@@ -217,20 +225,6 @@ namespace FormiWebshop.Server.Migrations
                 table: "Products",
                 keyColumn: "Id",
                 keyValue: 9,
-                columns: new[] { "Deleted", "Visible" },
-                values: new object[] { false, true });
-
-            migrationBuilder.UpdateData(
-                table: "Products",
-                keyColumn: "Id",
-                keyValue: 10,
-                columns: new[] { "Deleted", "Visible" },
-                values: new object[] { false, true });
-
-            migrationBuilder.UpdateData(
-                table: "Products",
-                keyColumn: "Id",
-                keyValue: 11,
                 columns: new[] { "Deleted", "Visible" },
                 values: new object[] { false, true });
         }
