@@ -55,8 +55,6 @@
     <Compile Include="Migrations\20231130193324_ProductVisibleDeleteFlags.Designer.cs" />
     <Compile Include="Migrations\20231213151249_Images.cs" />
     <Compile Include="Migrations\20231213151249_Images.Designer.cs" />
-    <Compile Include="Migrations\20231227192812_ProductTypeDeletedAddedChangedData.cs" />
-    <Compile Include="Migrations\20231227192812_ProductTypeDeletedAddedChangedData.Designer.cs" />
     <Compile Include="Migrations\DataContextModelSnapshot.cs" />
     <Compile Include="Pages\Error.cshtml.cs" />
     <Compile Include="Program.cs" />
