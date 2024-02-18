@@ -342,4 +342,7 @@
   <data name="AddToCart" xml:space="preserve">
     <value>Kosárba teszem</value>
   </data>
+  <data name="Variants" xml:space="preserve">
+    <value>Változatok</value>
+  </data>
 </root>

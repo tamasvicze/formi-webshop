@@ -12,10 +12,10 @@ else
 {
 
     <MudGrid Spacing="@spacing" Justify="Justify.Center">
-        <MudItem xs="6">
+        <MudItem xs="5">
             @if (!string.IsNullOrEmpty(product.ImageUrl))
             {
-                <MudImage Class="d-flex align-center justify-center mud-width-full py-8" src="@product.ImageUrl" alt="@product.Title" />
+                <MudImage Class="d-flex align-center justify-center mud-width-full" Height="650" src="@product.ImageUrl" alt="@product.Title" />
             }
             else
             {
@@ -26,18 +26,18 @@ else
                 </MudCarousel>
             }
         </MudItem>
-        <MudItem xs="6">
-            <h2 class="mb-0">@product.Title</h2>
-            <p>@product.Description</p>
+        <MudItem xs="7">
+            <MudText Typo="Typo.h3">@product.Title</MudText>
+            <MudText Typo="Typo.body1">@product.Description</MudText>
             @if (product.Variants != null && product.Variants.Count > 1)
             {
                 <div class="mb-3">
-                    <select class="form-select" @bind="currentTypeId">
+                    <MudSelect T="int" Label="@Localizer[nameof(ResourceStrings.Variants)]" Variant="Variant.Outlined" AnchorOrigin="Origin.BottomCenter" @bind-Value="currentTypeId">
                         @foreach (var variant in product.Variants)
                         {
-                            <option value="@variant.ProductTypeId">@variant.ProductType.Name</option>
+                            <MudSelectItem Value="@variant.ProductTypeId">@variant.ProductType.Name</MudSelectItem>
                         }
-                    </select>
+                    </MudSelect>
                 </div>
             }
             @if (GetSelectedVariant() != null)
@@ -47,10 +47,11 @@ else
                     <h6 class="text-muted original-price">
                         @GetSelectedVariant().OriginalPrice @Localizer[nameof(ResourceStrings.Currency)]
                     </h6>
+                    // The MudText here doesn't get the line-through as it should
+                    @* <MudText Class="text-muted original-price" Typo="Typo.h6">@GetSelectedVariant().OriginalPrice @Localizer[nameof(ResourceStrings.Currency)]</MudText> *@
                 }
-                <h4 class="price">
-                    @GetSelectedVariant().Price @Localizer[nameof(ResourceStrings.Currency)]
-                </h4>
+
+                <MudText Class="price" Typo="Typo.h5">@GetSelectedVariant().Price @Localizer[nameof(ResourceStrings.Currency)]</MudText>
             }
             <MudButton Color="Color.Primary" OnClick="AddToCart">
                 <MudIcon Icon="@Icons.Material.Filled.AddShoppingCart" Title="AddShoppingCart" />@Localizer[nameof(ResourceStrings.AddToCart)]

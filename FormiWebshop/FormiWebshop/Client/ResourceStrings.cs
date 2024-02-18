@@ -76,6 +76,7 @@
         ThankYouForYourPurchase,
         Here,
         UpdateProduct,
-        AddToCart
+        AddToCart,
+        Variants
     }
 }

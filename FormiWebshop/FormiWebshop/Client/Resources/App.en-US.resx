@@ -342,4 +342,7 @@
   <data name="AddToCart" xml:space="preserve">
     <value>Add to cart</value>
   </data>
+  <data name="Variants" xml:space="preserve">
+    <value>Variants</value>
+  </data>
 </root>
