@@ -3,22 +3,12 @@
 @inject ILocalStorageService LocalStorage
 @inject IStringLocalizer<App> Localizer
 
-<span style="margin: 0 1rem 0 1rem; ">
-    @Localizer[nameof(ResourceStrings.Language)]:&nbsp;
-    <select @onchange="NewCultureSelectedAsync">
-        @foreach (var culture in LocalizerSettings.SupportedCulturesWithName)
-        {
-            @if (SelectedCulture != null && culture == SelectedCulture)
-            {
-                <option selected value="@culture.Culture">@culture.Name</option>
-            }
-            else
-            {
-                <option value="@culture.Culture">@culture.Name</option>
-            }
-        }
-    </select>
-</span>
+<MudSelect Class="mx-2 my-2 mb-5" Width="50px" ValueChanged="NewCultureSelectedAsync" T="CultureWithName" Label="@Localizer[nameof(ResourceStrings.Language)]" AnchorOrigin="Origin.BottomCenter">
+    @foreach (var culture in LocalizerSettings.SupportedCulturesWithName)
+    {
+        <MudSelectItem Value="@culture"><img src="@GetFlagPicture(culture.Culture)" height="16" class="mr-1" />@culture.Name</MudSelectItem>
+    }
+</MudSelect>
 
 @code
 {
@@ -28,19 +18,34 @@
     {
         var culture = await LocalStorage.GetItemAsync<string>("culture");
         if (culture == "")
+        {
             SelectedCulture = LocalizerSettings.NeutralCulture;
+        }
         else
+        {
             SelectedCulture = (from x in LocalizerSettings.SupportedCulturesWithName
-                where x.Culture == culture
-                select x).FirstOrDefault();
+                               where x.Culture == culture
+                               select x).FirstOrDefault();
+        }
     }
 
-    private async Task NewCultureSelectedAsync(ChangeEventArgs args)
+    private async Task NewCultureSelectedAsync(CultureWithName cultureWithName)
     {
-        string cultureString = args.Value.ToString();
-        await LocalStorage.SetItemAsync<string>("culture", cultureString);
-        NavigationManager.NavigateTo(NavigationManager.Uri, true);
+        if (cultureWithName != null)
+        {
+            string cultureString = cultureWithName.Culture;
+            await LocalStorage.SetItemAsync("culture", cultureString);
+            NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+        }
     }
 
-    public string IsoCountryCodeToFlagEmoji(string countryCode) => string.Concat(countryCode.ToUpper().Select(x => char.ConvertFromUtf32(x + 0x1F1A5)));
+    public string GetFlagPicture(string culture)
+    {
+        return culture switch
+        {
+            "en-US" => "/flags/gb.svg",
+            "hu" => "/flags/hu.svg",
+            _ => string.Empty,
+        };
+    }
 }
