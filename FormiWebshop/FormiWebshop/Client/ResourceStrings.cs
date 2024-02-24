@@ -77,6 +77,11 @@
         Here,
         UpdateProduct,
         AddToCart,
-        Variants
+        Variants,
+        UserAlreadyExists,
+        UserNotFound,
+        WrongPassword,
+        RegistrationSuccessful,
+        PasswordHasBeenChanged
     }
 }

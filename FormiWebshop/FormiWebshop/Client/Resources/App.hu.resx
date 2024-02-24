@@ -345,4 +345,19 @@
   <data name="Variants" xml:space="preserve">
     <value>Változatok</value>
   </data>
+  <data name="UserAlreadyExists" xml:space="preserve">
+    <value>A felhasználó már létezik</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>A felhasználó nem található</value>
+  </data>
+  <data name="WrongPassword" xml:space="preserve">
+    <value>Rossz jelszó</value>
+  </data>
+  <data name="RegistrationSuccessful" xml:space="preserve">
+    <value>Sikeres regisztráció!</value>
+  </data>
+  <data name="PasswordHasBeenChanged" xml:space="preserve">
+    <value>A jelszó megváltozott</value>
+  </data>
 </root>
