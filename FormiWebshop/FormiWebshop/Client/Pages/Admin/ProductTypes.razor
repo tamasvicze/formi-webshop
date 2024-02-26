@@ -4,43 +4,47 @@
 @implements IDisposable
 @attribute [Authorize(Roles = "Admin")]
 
-<h3>@Localizer[nameof(ResourceStrings.ProductTypes)]</h3>
+<MudGrid Justify="Justify.Center">
+    <MudItem xs="10">
+        <h3>@Localizer[nameof(ResourceStrings.ProductTypes)]</h3>
 
-@foreach (var productType in ProductTypeService.ProductTypes)
-{
-    @if (productType.Editing)
-    {
-        <EditForm Model="editingProductType" OnSubmit="UpdateProductType">
-            <div class="row">
-                <div class="col">
-                    <InputText @bind-Value="editingProductType.Name" class="form-control"></InputText>
+        @foreach (var productType in ProductTypeService.ProductTypes)
+        {
+            @if (productType.Editing)
+            {
+                <EditForm Model="editingProductType" OnSubmit="UpdateProductType">
+                    <div class="row">
+                        <div class="col">
+                            <InputText @bind-Value="editingProductType.Name" class="form-control"></InputText>
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="oi oi-cloud-upload"></i>
+                            </button>
+                        </div>
+                    </div>
+                </EditForm>
+            }
+            else
+            {
+                <div class="row">
+                    <div class="col">
+                        @productType.Name
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary" @onclick="@(() => EditProductType(productType))">
+                            <i class="oi oi-pencil"></i>
+                        </button>
+                    </div>
                 </div>
-                <div class="col">
-                    <button type="submit" class="btn btn-primary">
-                        <i class="oi oi-cloud-upload"></i>
-                    </button>
-                </div>
-            </div>
-        </EditForm>
-    }
-    else
-    {
-        <div class="row">
-            <div class="col">
-                @productType.Name
-            </div>
-            <div class="col">
-                <button class="btn btn-primary" @onclick="@(() => EditProductType(productType))">
-                    <i class="oi oi-pencil"></i>
-                </button>
-            </div>
-        </div>
-    }
-}
+            }
+        }
 
-<button class="btn btn-primary" @onclick="CreateNewProductType">
-    <i class="oi oi-plus"></i> @Localizer[nameof(ResourceStrings.AddNewProductType)]
-</button>
+        <button class="btn btn-primary" @onclick="CreateNewProductType">
+            <i class="oi oi-plus"></i> @Localizer[nameof(ResourceStrings.AddNewProductType)]
+        </button>
+    </MudItem>
+</MudGrid>
 
 @code {
     ProductType editingProductType = null;

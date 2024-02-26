@@ -2,33 +2,37 @@
 @inject IOrderService OrderService
 @inject IStringLocalizer<App> Localizer
 
-<h3>@Localizer[nameof(ResourceStrings.Orders)]</h3>
+<MudGrid Justify="Justify.Center">
+    <MudItem xs="10">
+        <h3>@Localizer[nameof(ResourceStrings.Orders)]</h3>
 
-@if (orders == null)
-{
-    <span>@Localizer[nameof(ResourceStrings.LoadingYourOrders)]</span>
-}
-else if (orders.Count <= 0)
-{
-    <span>@Localizer[nameof(ResourceStrings.NoOrdersYet)]</span>
-}
-else
-{
-    foreach (var order in orders)
-    {
-        <div class="container">
-            <div class="image-wrapper">
-                <img src="@order.ProductImageUrl" class="image" alt="product-image"/>
-            </div>
-            <div class="details">
-                <h4>@order.Product</h4>
-                <span>@order.OrderDate</span><br/>
-                <a href="orders/@order.Id">@Localizer[nameof(ResourceStrings.ShowMore)]</a>
-            </div>
-            <div class="order-price">@order.TotalPrice @Localizer[nameof(ResourceStrings.Currency)]</div>
-        </div>
-    }
-}
+        @if (orders == null)
+        {
+            <span>@Localizer[nameof(ResourceStrings.LoadingYourOrders)]</span>
+        }
+        else if (orders.Count <= 0)
+        {
+            <span>@Localizer[nameof(ResourceStrings.NoOrdersYet)]</span>
+        }
+        else
+        {
+            foreach (var order in orders)
+            {
+                <div class="container">
+                    <div class="image-wrapper">
+                        <img src="@order.ProductImageUrl" class="image" alt="product-image" />
+                    </div>
+                    <div class="details">
+                        <h4>@order.Product</h4>
+                        <span>@order.OrderDate</span><br />
+                        <a href="orders/@order.Id">@Localizer[nameof(ResourceStrings.ShowMore)]</a>
+                    </div>
+                    <div class="order-price">@order.TotalPrice @Localizer[nameof(ResourceStrings.Currency)]</div>
+                </div>
+            }
+        }
+    </MudItem>
+</MudGrid>
 
 @code {
     List<OrderOverviewResponse> orders = null;
@@ -37,5 +41,4 @@ else
     {
         orders = await OrderService.GetOrders();
     }
-
 }

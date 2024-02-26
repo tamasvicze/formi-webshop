@@ -6,57 +6,61 @@
 @inject IStringLocalizer<App> Localizer
 
 <PageTitle>@Localizer[nameof(ResourceStrings.ShoppingCart)]</PageTitle>
-<h3>@Localizer[nameof(ResourceStrings.ShoppingCart)]</h3>
 
-@if (cartProducts == null || cartProducts.Count == 0)
-{
-    <span>@message</span>
-}
-else
-{
-    <div>
-        @foreach (var product in cartProducts)
+<MudGrid Justify="Justify.Center">
+    <MudItem xs="10">
+        <h3>@Localizer[nameof(ResourceStrings.ShoppingCart)]</h3>
+
+        @if (cartProducts == null || cartProducts.Count == 0)
         {
-            <div class="container">
-                <div class="image-wrapper">
-                    @if (!string.IsNullOrEmpty(product.ImageUrl))
-                    {
-                        <img src="@product.ImageUrl" class="image" alt="Card product image" />
-                    }
-                    else if (product.Images.Count > 0)
-                    {
-                        <img src="@product.Images[0].Data" />
-                    }
-                </div>
-                <div class="name">
-                    <h5><a href="/product/@product.ProductId">@product.Title</a></h5>
-                    <span>@product.ProductType</span><br />
-                    <input type="number" value="@product.Quantity"
-                           @onchange="@((ChangeEventArgs e) => UpdateQuantity(e, product))"
-                           class="form-control input-quantity"
-                           min="1" />
-                    <button type="button" class="btn-delete" @onclick="@(() => RemoveProductFromCart(product.ProductId, product.ProductTypeId))">
-                        @Localizer[nameof(ResourceStrings.Delete)]
-                    </button>
-                </div>
-                @* TODO Align total cart price under item prices*@
-                <div class="cart-product-price">@(product.Price * product.Quantity) @Localizer[nameof(ResourceStrings.Currency)]</div>
-            </div>
+            <span>@message</span>
         }
-        <div class="cart-product-price">
-            @Localizer[nameof(ResourceStrings.Total)] (@cartProducts.Sum(product => product.Quantity)): @cartProducts.Sum(product => product.Price * product.Quantity) @Localizer[nameof(ResourceStrings.Currency)]
-        </div>
-    </div>
-    @if (isAuthenticated)
-    {
-        <div>
-            <h5>@Localizer[nameof(ResourceStrings.DeliveryAddress)]</h5>
-            <AddressForm/>
-        </div>
-    }
-    <button @onclick="PlaceOrder" type="button" class="btn alert-success float-end mt-1">@Localizer[nameof(ResourceStrings.Checkout)]</button>
-
-}
+        else
+        {
+            <div>
+                @foreach (var product in cartProducts)
+                {
+                    <div class="container">
+                        <div class="image-wrapper">
+                            @if (!string.IsNullOrEmpty(product.ImageUrl))
+                            {
+                                <img src="@product.ImageUrl" class="image" alt="Card product image" />
+                            }
+                            else if (product.Images.Count > 0)
+                            {
+                                <img src="@product.Images[0].Data" />
+                            }
+                        </div>
+                        <div class="name">
+                            <h5><a href="/product/@product.ProductId">@product.Title</a></h5>
+                            <span>@product.ProductType</span><br />
+                            <input type="number" value="@product.Quantity"
+                                   @onchange="@((ChangeEventArgs e) => UpdateQuantity(e, product))"
+                                   class="form-control input-quantity"
+                                   min="1" />
+                            <button type="button" class="btn-delete" @onclick="@(() => RemoveProductFromCart(product.ProductId, product.ProductTypeId))">
+                                @Localizer[nameof(ResourceStrings.Delete)]
+                            </button>
+                        </div>
+                        @* TODO Align total cart price under item prices*@
+                        <div class="cart-product-price">@(product.Price * product.Quantity) @Localizer[nameof(ResourceStrings.Currency)]</div>
+                    </div>
+                }
+                <div class="cart-product-price">
+                    @Localizer[nameof(ResourceStrings.Total)] (@cartProducts.Sum(product => product.Quantity)): @cartProducts.Sum(product => product.Price * product.Quantity) @Localizer[nameof(ResourceStrings.Currency)]
+                </div>
+            </div>
+            @if (isAuthenticated)
+            {
+                <div>
+                    <h5>@Localizer[nameof(ResourceStrings.DeliveryAddress)]</h5>
+                    <AddressForm />
+                </div>
+            }
+            <button @onclick="PlaceOrder" type="button" class="btn alert-success float-end mt-1">@Localizer[nameof(ResourceStrings.Checkout)]</button>
+        }
+    </MudItem>
+</MudGrid>
 
 @code {
     List<CartProductResponse> cartProducts = null;

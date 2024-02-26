@@ -9,25 +9,29 @@
 
 <PageTitle>@Localizer[nameof(ResourceStrings.Login)]</PageTitle>
 
-<h3>@Localizer[nameof(ResourceStrings.Login)]</h3>
+<MudGrid Justify="Justify.Center">
+    <MudItem xs="10">
+        <h3>@Localizer[nameof(ResourceStrings.Login)]</h3>
 
-<EditForm Model="user" OnValidSubmit="HandleLogin">
-    <DataAnnotationsValidator></DataAnnotationsValidator>
-    <div class="mb-3">
-        <label for="email">@Localizer[nameof(ResourceStrings.Email)]</label>
-        <InputText id="email" @bind-Value="user.Email" class="form-control"></InputText>
-        <ValidationMessage For="@(() => user.Email)"></ValidationMessage>
-    </div>
-    <div class="mb-3">
-        <label for="password">@Localizer[nameof(ResourceStrings.Password)]</label>
-        <InputText id="password" @bind-Value="user.Password" class="form-control" type="password"></InputText>
-        <ValidationMessage For="@(() => user.Password)"></ValidationMessage>
-    </div>
-    <button type="submit" class="btn btn-primary">@Localizer[nameof(ResourceStrings.Login)]</button>
-</EditForm>
-<div class="text-danger">
-    <span>@errorMessage</span>
-</div>
+        <EditForm Model="user" OnValidSubmit="HandleLogin">
+            <DataAnnotationsValidator></DataAnnotationsValidator>
+            <div class="mb-3">
+                <label for="email">@Localizer[nameof(ResourceStrings.Email)]</label>
+                <InputText id="email" @bind-Value="user.Email" class="form-control"></InputText>
+                <ValidationMessage For="@(() => user.Email)"></ValidationMessage>
+            </div>
+            <div class="mb-3">
+                <label for="password">@Localizer[nameof(ResourceStrings.Password)]</label>
+                <InputText id="password" @bind-Value="user.Password" class="form-control" type="password"></InputText>
+                <ValidationMessage For="@(() => user.Password)"></ValidationMessage>
+            </div>
+            <button type="submit" class="btn btn-primary">@Localizer[nameof(ResourceStrings.Login)]</button>
+        </EditForm>
+        <div class="text-danger">
+            <span>@errorMessage</span>
+        </div>
+    </MudItem>
+</MudGrid>
 
 @code {
     private UserLogin user = new UserLogin();

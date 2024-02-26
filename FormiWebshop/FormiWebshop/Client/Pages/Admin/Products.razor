@@ -4,69 +4,73 @@
 @inject IStringLocalizer<App> Localizer
 @attribute [Authorize(Roles = "Admin")]
 
-<h3>@Localizer[nameof(ResourceStrings.Products)]</h3>
+<MudGrid Justify="Justify.Center">
+    <MudItem xs="10">
+        <h3>@Localizer[nameof(ResourceStrings.Products)]</h3>
 
-@if (ProductService.AdminProducts == null)
-{
-    <span>@Localizer[nameof(ResourceStrings.LoadingProducts)]</span>
-}
-else
-{
-    <button type="button" class="btn btn-primary float-end" @onclick="CreateProduct">
-        <i class="oi oi-plus"></i> @Localizer[nameof(ResourceStrings.AddNewProduct)]
-    </button>
-    <table class="table">
-        <thead>
-            <tr>
-                <th></th>
-                <th>@Localizer[nameof(ResourceStrings.ProductTitle)]</th>
-                <th>@Localizer[nameof(ResourceStrings.Variant)]</th>
-                <th>@Localizer[nameof(ResourceStrings.Price)]</th>
-                <th>@Localizer[nameof(ResourceStrings.Visible)]</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            <Virtualize Items="ProductService.AdminProducts" Context="product">
-                <tr>
-                    <td>
-                        @if (!string.IsNullOrEmpty(product.ImageUrl))
-                        {
-                            <img src="@product.ImageUrl" />
-                        }
-                        else if (product.Images.Count > 0)
-                        {
-                            <img src="@product.Images[0].Data" />
-                        }
-                    </td>
-                    <td>@product.Title</td>
-                    <td>
-                        @foreach (var variant in product.Variants)
-                        {
-                            <span>@variant.ProductType.Name</span>
+        @if (ProductService.AdminProducts == null)
+        {
+            <span>@Localizer[nameof(ResourceStrings.LoadingProducts)]</span>
+        }
+        else
+        {
+            <button type="button" class="btn btn-primary float-end" @onclick="CreateProduct">
+                <i class="oi oi-plus"></i> @Localizer[nameof(ResourceStrings.AddNewProduct)]
+            </button>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>@Localizer[nameof(ResourceStrings.ProductTitle)]</th>
+                        <th>@Localizer[nameof(ResourceStrings.Variant)]</th>
+                        <th>@Localizer[nameof(ResourceStrings.Price)]</th>
+                        <th>@Localizer[nameof(ResourceStrings.Visible)]</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <Virtualize Items="ProductService.AdminProducts" Context="product">
+                        <tr>
+                            <td>
+                                @if (!string.IsNullOrEmpty(product.ImageUrl))
+                                {
+                                    <img src="@product.ImageUrl" />
+                                }
+                                else if (product.Images.Count > 0)
+                                {
+                                    <img src="@product.Images[0].Data" />
+                                }
+                            </td>
+                            <td>@product.Title</td>
+                            <td>
+                                @foreach (var variant in product.Variants)
+                                {
+                                    <span>@variant.ProductType.Name</span>
 
-                            <br />
-                        }
-                    </td>
-                    <td>
-                        @foreach (var variant in product.Variants)
-                        {
-                            <span>@variant.Price</span>
+                                    <br />
+                                }
+                            </td>
+                            <td>
+                                @foreach (var variant in product.Variants)
+                                {
+                                    <span>@variant.Price</span>
 
-                            <br />
-                        }
-                    </td>
-                    <td>@(product.Visible ? "\u2705" : "")</td>
-                    <td>
-                        <button type="button" class="btn btn-primary" @onclick="() => EditProduct(product.Id)">
-                            <i class="oi oi-pencil"></i>
-                        </button>
-                    </td>
-                </tr>
-            </Virtualize>
-        </tbody>
-    </table>
-}
+                                    <br />
+                                }
+                            </td>
+                            <td>@(product.Visible ? "\u2705" : "")</td>
+                            <td>
+                                <button type="button" class="btn btn-primary" @onclick="() => EditProduct(product.Id)">
+                                    <i class="oi oi-pencil"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </Virtualize>
+                </tbody>
+            </table>
+        }
+    </MudItem>
+</MudGrid>
 
 @code {
     protected override async Task OnInitializedAsync()
